@@ -28,8 +28,8 @@ bash build.sh
 
 ## Related projects
 
-- [rensole-en](https://github.com/marmooo/rensole-en) (English)
-- [rensole-zh](https://github.com/marmooo/rensole-zh) (Chinese)
+- [Rensole-en](https://github.com/marmooo/rensole-en) (English)
+- [Rensole-zh](https://github.com/marmooo/rensole-zh) (Chinese)
 
 ## License
 
