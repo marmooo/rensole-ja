@@ -15,7 +15,7 @@
   from [fastText](https://fasttext.cc/docs/en/crawl-vectors.html) licensed under
   the [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
 - install [marmooo/Siminym-ja](https://github.com/marmooo/siminym-ja) licensed under the
-  [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+  [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 - `npm install`
 
 ## Build
