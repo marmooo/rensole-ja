@@ -1,7 +1,9 @@
 import { escapeSql } from "https://deno.land/x/escape/mod.ts";
 import { createDbWorker } from "../node_modules/sql.js-httpvfs/dist/index.js";
 
-const w1_ = Array.from('一右雨円王音下火花貝学気九休玉金空月犬見五口校左三山子四糸字耳七車手十出女小上森人水正生青夕石赤千川先早草足村大男竹中虫町天田土二日入年白八百文木本名目立力林六');
+const w1_ = Array.from(
+  "一右雨円王音下火花貝学気九休玉金空月犬見五口校左三山子四糸字耳七車手十出女小上森人水正生青夕石赤千川先早草足村大男竹中虫町天田土二日入年白八百文木本名目立力林六",
+);
 const w2_ = Array.from(
   "引羽雲園遠何科夏家歌画回会海絵外角楽活間丸岩顔汽記帰弓牛魚京強教近兄形計元言原戸古午後語工公広交光考行高黄合谷国黒今才細作算止市矢姉思紙寺自時室社弱首秋週春書少場色食心新親図数西声星晴切雪船線前組走多太体台地池知茶昼長鳥朝直通弟店点電刀冬当東答頭同道読内南肉馬売買麦半番父風分聞米歩母方北毎妹万明鳴毛門夜野友用曜来里理話",
 );
@@ -73,8 +75,8 @@ function loadAudio(url) {
 
 function loadAudios() {
   promises = [
-    loadAudio("/rensole-ja/mp3/correct3.mp3"),
-    loadAudio("/rensole-ja/mp3/incorrect1.mp3"),
+    loadAudio("mp3/correct3.mp3"),
+    loadAudio("mp3/incorrect1.mp3"),
   ];
   Promise.all(promises).then((audioBuffers) => {
     correctAudio = audioBuffers[0];
@@ -180,17 +182,19 @@ function getHint(replyCount) {
       return hint;
     case 5: {
       const pos = getRandomInt(0, answer.length);
-      holedHint = holedHint.slice(0, pos) + answer[pos] + holedHint.slice(pos + 1);
+      holedHint = holedHint.slice(0, pos) + answer[pos] +
+        holedHint.slice(pos + 1);
       return holedHint;
     }
     case 7:
       if (answer.length > 2) {
         const poses = holedHint.split("")
           .map((str, i) => [str, i])
-          .filter(x => x[0] == "？")
-          .map(x => x[1]);
+          .filter((x) => x[0] == "？")
+          .map((x) => x[1]);
         const pos = poses[getRandomInt(0, poses.length)];
-        holedHint = holedHint.slice(0, pos) + answer[pos] + holedHint.slice(pos + 1);
+        holedHint = holedHint.slice(0, pos) + answer[pos] +
+          holedHint.slice(pos + 1);
         return holedHint;
       } else {
         const grades = Array.from("１１２３４５６中中常");
@@ -204,10 +208,11 @@ function getHint(replyCount) {
       if (answer.length > 3) {
         const poses = holedHint.split("")
           .map((str, i) => [str, i])
-          .filter(x => x[0] == "？")
-          .map(x => x[1]);
+          .filter((x) => x[0] == "？")
+          .map((x) => x[1]);
         const pos = poses[getRandomInt(0, poses.length)];
-        holedHint = holedHint.slice(0, pos) + answer[pos] + holedHint.slice(pos + 1);
+        holedHint = holedHint.slice(0, pos) + answer[pos] +
+          holedHint.slice(pos + 1);
         return holedHint;
       } else {
         return "";
@@ -225,10 +230,18 @@ function showAnswer(cleared) {
   }
   document.getElementById("answer").classList.remove("d-none");
   const animations = [
-    "bounce", "rubberBand", "flip", "rotateIn", "swing",  "tada", "heartBeat", "jackInTheBox"];
+    "bounce",
+    "rubberBand",
+    "flip",
+    "rotateIn",
+    "swing",
+    "tada",
+    "heartBeat",
+    "jackInTheBox",
+  ];
   const animation = animations[getRandomInt(0, animations.length)];
   const classNames = ["animate__animated", `animate__${animation}`];
-  const answerText = document.getElementById("answerText")
+  const answerText = document.getElementById("answerText");
   answerText.textContent = answer;
   answerText.parentNode.classList.add(...classNames);
   document.getElementById("restart").focus();
@@ -275,7 +288,7 @@ async function loadProblems() {
   await fetch("game.lst")
     .then((response) => response.text())
     .then((text) => {
-      text.trimEnd().split("\n").forEach(line => {
+      text.trimEnd().split("\n").forEach((line) => {
         problems.push(line);
       });
       answer = problems[getRandomInt(0, problems.length)];
@@ -313,13 +326,13 @@ async function restart() {
   loading.classList.remove("d-none");
   replyCount = 0;
   answer = problems[getRandomInt(0, problems.length)];
-  while(renso.firstChild) renso.firstChild.remove();
+  while (renso.firstChild) renso.firstChild.remove();
   document.getElementById("answer").classList.add("d-none");
   const promises = [
     getSiminyms(answer),
     getWordVector(answer),
-  ]
-  Promise.all(promises).then(result => {
+  ];
+  Promise.all(promises).then((result) => {
     mostSimilars = result[0];
     answerVector = result[1];
     document.getElementById("searchText").focus();
@@ -342,7 +355,7 @@ loadProblems().then(() => {
   loadSiminymWorker(answer);
   loadRensoWorker(answer);
   const renso = document.getElementById("renso");
-  while(renso.firstChild) renso.firstChild.remove();
+  while (renso.firstChild) renso.firstChild.remove();
   loading.classList.add("d-none");
 });
 

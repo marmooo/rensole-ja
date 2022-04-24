@@ -1,3 +1,5 @@
+rm remote.db
+rm -rf docs/db
 cp cc.ja.300-small.magnitude remote.db
 bash optimize.sh
 mkdir -p docs/db
