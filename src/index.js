@@ -367,3 +367,7 @@ document.addEventListener("keydown", function (event) {
 document.getElementById("toggleDarkMode").onclick = toggleDarkMode;
 document.getElementById("search").onclick = search;
 document.getElementById("restart").onclick = restart;
+document.addEventListener("click", unlockAudio, {
+  once: true,
+  useCapture: true,
+});
