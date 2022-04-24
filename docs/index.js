@@ -537,6 +537,9 @@ function playAudio(audioBuffer, volume) {
         audioSource.start();
     }
 }
+function unlockAudio() {
+    audioContext.resume();
+}
 function loadAudio(url) {
     return fetch(url).then((response)=>response.arrayBuffer()
     ).then((arrayBuffer)=>{
@@ -632,7 +635,7 @@ function getHint(replyCount1) {
             for(let i1 = 0; i1 < answer.length; i1++){
                 hint += "？";
             }
-            holedHint = hint;
+            holedAnswer = hint;
             return hint;
         case 3:
             for (const str1 of answer){
@@ -648,12 +651,12 @@ function getHint(replyCount1) {
         case 5:
             {
                 const pos = getRandomInt(0, answer.length);
-                holedHint = holedHint.slice(0, pos) + answer[pos] + holedHint.slice(pos + 1);
-                return holedHint;
+                holedAnswer = holedAnswer.slice(0, pos) + answer[pos] + holedAnswer.slice(pos + 1);
+                return holedAnswer;
             }
         case 7:
             if (answer.length > 2) {
-                const poses = holedHint.split("").map((str, i)=>[
+                const poses = holedAnswer.split("").map((str, i)=>[
                         str,
                         i
                     ]
@@ -661,8 +664,8 @@ function getHint(replyCount1) {
                 ).map((x)=>x[1]
                 );
                 const pos = poses[getRandomInt(0, poses.length)];
-                holedHint = holedHint.slice(0, pos) + answer[pos] + holedHint.slice(pos + 1);
-                return holedHint;
+                holedAnswer = holedAnswer.slice(0, pos) + answer[pos] + holedAnswer.slice(pos + 1);
+                return holedAnswer;
             } else {
                 const grades = Array.from("１１２３４５６中中常");
                 for(let i = 0; i < answer.length; i++){
@@ -673,7 +676,7 @@ function getHint(replyCount1) {
             }
         case 9:
             if (answer.length > 3) {
-                const poses = holedHint.split("").map((str, i)=>[
+                const poses = holedAnswer.split("").map((str, i)=>[
                         str,
                         i
                     ]
@@ -681,8 +684,8 @@ function getHint(replyCount1) {
                 ).map((x)=>x[1]
                 );
                 const pos = poses[getRandomInt(0, poses.length)];
-                holedHint = holedHint.slice(0, pos) + answer[pos] + holedHint.slice(pos + 1);
-                return holedHint;
+                holedAnswer = holedAnswer.slice(0, pos) + answer[pos] + holedAnswer.slice(pos + 1);
+                return holedAnswer;
             } else {
                 return "";
             }
@@ -723,24 +726,31 @@ function search() {
     getWordVector(word).then((b)=>{
         if (b) {
             document.getElementById("notExisted").classList.add("invisible");
-            const a = answerVector;
-            const similarity = math.dot(a, b) / (math.norm(a) * math.norm(b));
-            const template = document.createElement("template");
-            const m = mostSimilars[replyCount];
-            const hint = getHint(replyCount);
-            template.innerHTML = `
-        <tr>
-          <td>${word}</td><td>${similarity.toFixed(3)}</td>
-          <td>${m[0]}</td><td>${m[1].toFixed(3)}</td>
-          <td>${showHint(hint)}</td></td>
-        </tr>
-      `;
-            const renso = document.getElementById("renso");
-            const tr = template.content.firstElementChild;
-            renso.insertBefore(tr, renso.firstChild);
+            if (replyCount >= 10) {
+                if (word == answer) {
+                    showAnswer(true);
+                } else {
+                    showAnswer(false);
+                }
+            } else {
+                const a = answerVector;
+                const similarity = math.dot(a, b) / (math.norm(a) * math.norm(b));
+                const template = document.createElement("template");
+                const m = mostSimilars[replyCount];
+                const hint = getHint(replyCount);
+                template.innerHTML = `
+          <tr>
+            <td>${word}</td><td>${similarity.toFixed(3)}</td>
+            <td>${m[0]}</td><td>${m[1].toFixed(3)}</td>
+            <td>${showHint(hint)}</td></td>
+          </tr>
+        `;
+                const renso = document.getElementById("renso");
+                const tr = template.content.firstElementChild;
+                renso.insertBefore(tr, renso.firstChild);
+                if (word == answer) showAnswer(true);
+            }
             replyCount += 1;
-            if (word == answer) showAnswer(true);
-            if (replyCount >= 10) showAnswer(false);
         } else {
             document.getElementById("notExisted").classList.remove("invisible");
         }
@@ -756,9 +766,11 @@ async function loadProblems() {
     await fetch("game.lst").then((response)=>response.text()
     ).then((text)=>{
         text.trimEnd().split("\n").forEach((line)=>{
-            problems.push(line);
+            vocabularies.push(line);
         });
-        answer = problems[getRandomInt(0, problems.length)];
+        changeGrade();
+        const pos = getRandomInt(0, problems.length);
+        answer = problems[pos];
     });
 }
 async function loadSiminymWorker(answer1) {
@@ -785,7 +797,8 @@ async function restart() {
     const loading = document.getElementById("loading");
     loading.classList.remove("d-none");
     replyCount = 0;
-    answer = problems[getRandomInt(0, problems.length)];
+    const pos = getRandomInt(0, problems.length);
+    answer = problems[pos];
     while(renso.firstChild)renso.firstChild.remove();
     document.getElementById("answer").classList.add("d-none");
     const promises = [
@@ -799,12 +812,18 @@ async function restart() {
         loading.classList.add("d-none");
     });
 }
-const problems = [];
+function changeGrade() {
+    const obj = document.getElementById("grade");
+    const grade = obj.options[obj.selectedIndex].value;
+    problems = vocabularies.slice(0, parseInt(grade));
+}
+const vocabularies = [];
+let problems = [];
 let replyCount = 0;
 let mostSimilars;
 let answerVector;
-let answer = "Rensole";
-let holedHint;
+let answer;
+let holedAnswer;
 let rensoleWorker;
 let siminymWorker;
 loadConfig();
@@ -825,4 +844,9 @@ document.addEventListener("keydown", function(event) {
 document.getElementById("toggleDarkMode").onclick = toggleDarkMode;
 document.getElementById("search").onclick = search;
 document.getElementById("restart").onclick = restart;
+document.getElementById("grade").onchange = changeGrade();
+document.addEventListener("click", unlockAudio, {
+    once: true,
+    useCapture: true
+});
 
