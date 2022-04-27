@@ -82,8 +82,22 @@ async function parseLemma() {
   return arr;
 }
 
+async function loadRank() {
+  const dict = {};
+  let count = 1;
+  const fileReader = await Deno.open("words.lst");
+  for await (const line of readLines(fileReader)) {
+    if (!line) continue;
+    const word = line.split(",", 1)[0];
+    dict[word] = count;
+    count += 1;
+  }
+  return dict;
+}
+
 const result = await parseLemma();
+const rank = await loadRank();
 Deno.writeTextFile(
-  "src/game.lst",
-  result.slice(0, 10000).map((x) => x[0]).join("\n"),
+  "src/game.csv",
+  result.map((x) => `${x[0]},${rank[x[0]]}`).join("\n"),
 );

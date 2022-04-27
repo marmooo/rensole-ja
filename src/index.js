@@ -292,22 +292,26 @@ function getRandomInt(min, max) {
 }
 
 async function loadProblems() {
-  await fetch("game.lst")
+  await fetch("game.csv")
     .then((response) => response.text())
     .then((text) => {
       text.trimEnd().split("\n").forEach((line) => {
-        vocabularies.push(line);
+        const [word, numStr] = line.split(",");
+        vocabularies.push([word, parseInt(numStr)]);
       });
+      gradePoses = calcGradePos();
       changeGrade();
-      const pos = getRandomInt(0, problems.length);
-      answer = problems[pos];
     });
 }
 
-async function loadSiminymWorker(answer) {
+async function loadSiminymWorker(answer, grade) {
+  if (!grade) {
+    const obj = document.getElementById("grade");
+    grade = obj.options[obj.selectedIndex].value;
+  }
   const config = {
     from: "jsonconfig",
-    configUrl: "/siminym-ja/db/config.json",
+    configUrl: `/siminym-ja/db/${grade}/config.json`,
   };
   siminymWorker = await createDbWorker(
     [config],
@@ -335,7 +339,7 @@ async function restart() {
   loading.classList.remove("d-none");
   replyCount = 0;
   const pos = getRandomInt(0, problems.length);
-  answer = problems[pos];
+  answer = problems[pos][0];
   while (renso.firstChild) renso.firstChild.remove();
   document.getElementById("answer").classList.add("d-none");
   const promises = [
@@ -350,13 +354,29 @@ async function restart() {
   });
 }
 
+function calcGradePos() {
+  const result = [];
+  [...document.getElementById("grade").options].forEach(e => {
+    const grade = parseInt(e.value);
+    const pos = vocabularies.findIndex(x => x[1] > grade);
+    result.push(pos);
+  });
+  return result;
+}
+
 function changeGrade() {
   const obj = document.getElementById("grade");
   const grade = obj.options[obj.selectedIndex].value;
-  problems = vocabularies.slice(0, parseInt(grade));
+  loadSiminymWorker(answer, grade);
+  replyCount = 0;
+  while (renso.firstChild) renso.firstChild.remove();
+  const pos = gradePoses[obj.selectedIndex];
+  problems = vocabularies.slice(0, pos - 1);
+  answer = problems[getRandomInt(0, problems.length)][0];
 }
 
 const vocabularies = [];
+let gradePoses = [];
 let problems = [];
 let replyCount = 0;
 let mostSimilars;
@@ -384,7 +404,7 @@ document.addEventListener("keydown", function (event) {
 document.getElementById("toggleDarkMode").onclick = toggleDarkMode;
 document.getElementById("search").onclick = search;
 document.getElementById("restart").onclick = restart;
-document.getElementById("grade").onchange = changeGrade();
+document.getElementById("grade").onchange = changeGrade;
 document.addEventListener("click", unlockAudio, {
   once: true,
   useCapture: true,
