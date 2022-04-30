@@ -31,6 +31,10 @@
         border-radius:0.2rem; margin:0 0.1rem 0 0; }
       .hint2 { color:white; background-color:rgba(var(--bs-success-rgb));
         border-radius:0.2rem; margin:0 0.1rem 0 0; }
+      .hint3 { color:white; background-color:rgba(var(--bs-secondary-rgb));
+        border-radius:0.2rem; margin:0 0.1rem 0 0; }
+      .hint4 { color:white; background-color:rgba(var(--bs-success-rgb));
+        border-radius:0.2rem; margin:0 0.1rem 0 0; }
       html[data-theme="dark"] { filter: invert(1) hue-rotate(180deg); }
       @-moz-document url-prefix() { html[data-theme="dark"] { background-color:black; } }
     </style>
@@ -56,8 +60,8 @@
               <option>3000</option>
               <option>5000</option>
               <option>10000</option>
-              <option selected>20000 (小6)</option>
-              <option>40000 (高3)</option>
+              <option value="20000" selected>20000 (小6)</option>
+              <option value="40000">40000 (高3)</option>
               <option>120000</option>
             </select>
             <button title="ダークモード切替" id="toggleDarkMode" class="fs-4 btn p-0 ms-1">🌓</button>

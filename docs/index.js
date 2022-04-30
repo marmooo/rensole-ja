@@ -576,8 +576,24 @@ function getGrade(word) {
     return Math.max(...grades);
 }
 function loadConfig() {
+    loadGrade();
     if (localStorage.getItem("darkMode") == 1) {
         document.documentElement.dataset.theme = "dark";
+    }
+}
+function loadGrade() {
+    const grade = localStorage.getItem("rensole-ja");
+    if (grade) {
+        const obj = document.getElementById("grade");
+        [
+            ...obj.options
+        ].forEach((g)=>{
+            if (g.value == grade) {
+                g.selected = true;
+            } else {
+                g.selected = false;
+            }
+        });
     }
 }
 function toggleDarkMode() {
@@ -589,41 +605,39 @@ function toggleDarkMode() {
         document.documentElement.dataset.theme = "dark";
     }
 }
-async function getWordVector(lemma) {
-    const result = await rensoleWorker.db.query(`SELECT * FROM magnitude WHERE key="${escapeSql(lemma)}"`);
-    if (result[0]) {
-        const vector = new Array(300);
-        for (const [k, v] of Object.entries(result[0])){
-            if (k.startsWith("dim_")) {
-                const pos = parseInt(k.slice(4));
-                vector[pos] = v;
+function getWordVector(lemma) {
+    return rensoleWorker.db.query(`SELECT * FROM magnitude WHERE key="${escapeSql(lemma)}"`).then((row)=>{
+        if (row[0]) {
+            const vector = new Array(300);
+            for (const [k, v] of Object.entries(row[0])){
+                if (k.startsWith("dim_")) {
+                    const pos = parseInt(k.slice(4));
+                    vector[pos] = v;
+                }
             }
+            return vector;
         }
-        return vector;
-    }
+    });
 }
-async function getSiminyms(lemma) {
-    const row = await siminymWorker.db.query(`SELECT words FROM siminyms WHERE lemma="${escapeSql(lemma)}"`);
-    if (row[0]) {
-        const words = JSON.parse(row[0].words);
-        return words.reverse();
-    } else {
-        return [];
-    }
+function getSiminyms(lemma) {
+    return siminymWorker.db.query(`SELECT words FROM siminyms WHERE lemma="${escapeSql(lemma)}"`).then((row)=>{
+        if (row[0]) {
+            const words = JSON.parse(row[0].words);
+            return words.reverse();
+        }
+    });
 }
-function showHint(text) {
+function showHint(hint) {
     let html = "";
-    if (text.includes("？")) {
-        for(let i = 0; i < text.length; i++){
-            if (text[i] == answer[i]) {
-                html += `<span class="hint2">${text[i]}</span>`;
-            } else {
-                html += `<span class="hint1">${text[i]}</span>`;
-            }
-        }
-    } else {
-        for(let i = 0; i < text.length; i++){
-            html += `<span class="hint1">${text[i]}</span>`;
+    if (Object.keys(hint).length == 0) return html;
+    const m = hint.type == "word" ? 2 : 4;
+    const n = hint.type == "word" ? 1 : 3;
+    const text = hint.text;
+    for(let i = 0; i < text.length; i++){
+        if (text[i] == hint.target[i]) {
+            html += `<span class="hint${m}">${text[i]}</span>`;
+        } else {
+            html += `<span class="hint${n}">${text[i]}</span>`;
         }
     }
     return html;
@@ -636,7 +650,11 @@ function getHint(replyCount1) {
                 hint += "？";
             }
             holedAnswer = hint;
-            return hint;
+            return {
+                text: hint,
+                type: "word",
+                target: answer
+            };
         case 3:
             for (const str1 of answer){
                 if (/^[ぁ-ん]+$/.test(str1)) {
@@ -647,12 +665,20 @@ function getHint(replyCount1) {
                     hint += "漢";
                 }
             }
-            return hint;
+            return {
+                text: hint,
+                type: "grade",
+                target: answer
+            };
         case 5:
             {
                 const pos = getRandomInt(0, answer.length);
                 holedAnswer = holedAnswer.slice(0, pos) + answer[pos] + holedAnswer.slice(pos + 1);
-                return holedAnswer;
+                return {
+                    text: holedAnswer,
+                    type: "word",
+                    target: answer
+                };
             }
         case 7:
             if (answer.length > 2) {
@@ -665,14 +691,22 @@ function getHint(replyCount1) {
                 );
                 const pos = poses[getRandomInt(0, poses.length)];
                 holedAnswer = holedAnswer.slice(0, pos) + answer[pos] + holedAnswer.slice(pos + 1);
-                return holedAnswer;
+                return {
+                    text: holedAnswer,
+                    type: "word",
+                    target: answer
+                };
             } else {
                 const grades = Array.from("１１２３４５６中中常");
                 for(let i = 0; i < answer.length; i++){
                     const grade = getGrade(answer[i]);
                     hint += grades[grade];
                 }
-                return hint;
+                return {
+                    text: holedAnswer,
+                    type: "grade",
+                    target: answer
+                };
             }
         case 9:
             if (answer.length > 3) {
@@ -685,12 +719,16 @@ function getHint(replyCount1) {
                 );
                 const pos = poses[getRandomInt(0, poses.length)];
                 holedAnswer = holedAnswer.slice(0, pos) + answer[pos] + holedAnswer.slice(pos + 1);
-                return holedAnswer;
+                return {
+                    text: holedAnswer,
+                    type: "word",
+                    target: answer
+                };
             } else {
-                return "";
+                return {};
             }
         default:
-            return "";
+            return {};
     }
 }
 function showAnswer(cleared) {
@@ -762,9 +800,10 @@ function getRandomInt(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min)) + min;
 }
-async function loadProblems() {
-    await fetch("game.csv").then((response)=>response.text()
+function loadProblems() {
+    return fetch("game.csv").then((response)=>response.text()
     ).then((text)=>{
+        document.getElementById("loading").classList.remove("d-none");
         text.trimEnd().split("\n").forEach((line)=>{
             const [word, numStr] = line.split(",");
             vocabularies.push([
@@ -773,10 +812,11 @@ async function loadProblems() {
             ]);
         });
         gradePoses = calcGradePos();
-        changeGrade();
+        loadWorkers();
     });
 }
-async function loadSiminymWorker(answer1, grade) {
+function loadSiminymWorker() {
+    let grade = localStorage.getItem("rensole-ja");
     if (!grade) {
         const obj = document.getElementById("grade");
         grade = obj.options[obj.selectedIndex].value;
@@ -785,61 +825,75 @@ async function loadSiminymWorker(answer1, grade) {
         from: "jsonconfig",
         configUrl: `/siminym-ja/db/${grade}/config.json`
     };
-    siminymWorker = await createDbWorker([
+    return createDbWorker([
         config
-    ], "/siminym-ja/sql.js-httpvfs/sqlite.worker.js", "/siminym-ja/sql.js-httpvfs/sql-wasm.wasm");
-    mostSimilars = await getSiminyms(answer1);
+    ], "/rensole-ja/sql.js-httpvfs/sqlite.worker.js", "/rensole-ja/sql.js-httpvfs/sql-wasm.wasm");
 }
-async function loadRensoWorker(answer2) {
+function loadRensoWorker() {
     const config = {
         from: "jsonconfig",
         configUrl: "/rensole-ja/db/config.json"
     };
-    rensoleWorker = await createDbWorker([
+    return createDbWorker([
         config
     ], "/rensole-ja/sql.js-httpvfs/sqlite.worker.js", "/rensole-ja/sql.js-httpvfs/sql-wasm.wasm");
-    answerVector = await getWordVector(answer2);
-}
-async function restart() {
-    const loading = document.getElementById("loading");
-    loading.classList.remove("d-none");
-    replyCount = 0;
-    const pos = getRandomInt(0, problems.length);
-    answer = problems[pos][0];
-    while(renso.firstChild)renso.firstChild.remove();
-    document.getElementById("answer").classList.add("d-none");
-    const promises = [
-        getSiminyms(answer),
-        getWordVector(answer), 
-    ];
-    Promise.all(promises).then((result)=>{
-        mostSimilars = result[0];
-        answerVector = result[1];
-        document.getElementById("searchText").focus();
-        loading.classList.add("d-none");
-    });
 }
 function calcGradePos() {
     const result = [];
+    let prevPos = 0;
     [
         ...document.getElementById("grade").options
     ].forEach((e)=>{
         const grade = parseInt(e.value);
-        const pos = vocabularies.findIndex((x)=>x[1] > grade
-        );
+        const pos = vocabularies.slice(prevPos).findIndex((x)=>x[1] > grade
+        ) - 1;
         result.push(pos);
+        prevPos = pos;
     });
     return result;
+}
+function loadProblemVectors() {
+    const promises = [
+        getSiminyms(answer),
+        getWordVector(answer), 
+    ];
+    return Promise.all(promises).then((result)=>{
+        mostSimilars = result[0];
+        console.log(mostSimilars);
+        answerVector = result[1];
+        document.getElementById("searchText").focus();
+        document.getElementById("loading").classList.add("d-none");
+    });
+}
+async function changeProblem() {
+    document.getElementById("loading").classList.remove("d-none");
+    document.getElementById("answer").classList.add("d-none");
+    replyCount = 0;
+    const pos = getRandomInt(0, problems.length);
+    answer = problems[pos][0];
+    const renso = document.getElementById("renso");
+    while(renso.firstChild)renso.firstChild.remove();
+    await loadProblemVectors();
+}
+async function loadWorkers() {
+    const obj = document.getElementById("grade");
+    const pos = gradePoses[obj.selectedIndex];
+    problems = vocabularies.slice(0, pos);
+    const promises = [
+        loadSiminymWorker(),
+        loadRensoWorker(), 
+    ];
+    await Promise.all(promises).then((workers)=>{
+        siminymWorker = workers[0];
+        rensoleWorker = workers[1];
+        changeProblem();
+    });
 }
 function changeGrade() {
     const obj = document.getElementById("grade");
     const grade = obj.options[obj.selectedIndex].value;
-    loadSiminymWorker(answer, grade);
-    replyCount = 0;
-    while(renso.firstChild)renso.firstChild.remove();
-    const pos = gradePoses[obj.selectedIndex];
-    problems = vocabularies.slice(0, pos - 1);
-    answer = problems[getRandomInt(0, problems.length)][0];
+    localStorage.setItem("rensole-ja", grade);
+    location.reload();
 }
 const vocabularies = [];
 let gradePoses = [];
@@ -852,23 +906,13 @@ let holedAnswer;
 let rensoleWorker;
 let siminymWorker;
 loadConfig();
-loadProblems().then(()=>{
-    const loading = document.getElementById("loading");
-    loading.classList.remove("d-none");
-    loadSiminymWorker(answer);
-    loadRensoWorker(answer);
-    const renso = document.getElementById("renso");
-    while(renso.firstChild)renso.firstChild.remove();
-    loading.classList.add("d-none");
-});
+loadProblems();
 document.addEventListener("keydown", function(event) {
-    if (event.key == "Enter") {
-        search();
-    }
+    if (event.key == "Enter") search();
 }, false);
 document.getElementById("toggleDarkMode").onclick = toggleDarkMode;
 document.getElementById("search").onclick = search;
-document.getElementById("restart").onclick = restart;
+document.getElementById("restart").onclick = changeProblem;
 document.getElementById("grade").onchange = changeGrade;
 document.addEventListener("click", unlockAudio, {
     once: true,
