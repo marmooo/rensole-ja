@@ -4,12 +4,8 @@
 
 ## Installation
 
-- install [N-gram corpus](http://www.s-yata.jp/corpus/nwc2010/ngrams/) (free)
 - install [SudachiDict](https://github.com/WorksApplications/SudachiDict)
   licenced under the Apache-2.0
-- install
-  [MosasoM/inappropriate-words-ja](https://github.com/MosasoM/inappropriate-words-ja)
-  licensed under the MIT
 - install
   [cc.ja.300.vec.gz](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.ja.300.vec.gz)
   from [fastText](https://fasttext.cc/docs/en/crawl-vectors.html) licensed under
