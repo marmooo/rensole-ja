@@ -634,8 +634,8 @@ function showHint(hint) {
     if (hint.type == "pronounce") m = 4;
     if (hint.type == "grade") m = 6;
     let n = 1;
-    if (hint.type == "pronounce") m = 3;
-    if (hint.type == "grade") m = 5;
+    if (hint.type == "pronounce") n = 3;
+    if (hint.type == "grade") n = 5;
     const text = hint.text;
     for(let i = 0; i < text.length; i++){
         if (text[i] == hint.target[i]) {
