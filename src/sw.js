@@ -1,4 +1,4 @@
-var CACHE_NAME = "2022-05-27 21:10";
+var CACHE_NAME = "2022-06-03 21:35";
 var urlsToCache = [
   "/rensole-ja/",
   "/rensole-ja/index.js",
