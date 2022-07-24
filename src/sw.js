@@ -1,4 +1,4 @@
-var CACHE_NAME = "2022-06-03 21:35";
+var CACHE_NAME = "2022-07-24 00:46";
 var urlsToCache = [
   "/rensole-ja/",
   "/rensole-ja/index.js",
@@ -6,7 +6,7 @@ var urlsToCache = [
   "/rensole-ja/sql.js-httpvfs/sql-wasm.wasm",
   "/rensole-ja/sql.js-httpvfs/sqlite.worker.js",
   "/rensole-ja/favicon/favicon.svg",
-  "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css",
+  "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css",
   "https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css",
   "https://cdn.jsdelivr.net/npm/mathjs@10.4.3/lib/browser/math.js",
 ];
