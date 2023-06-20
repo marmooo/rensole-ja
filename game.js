@@ -214,7 +214,7 @@ function toRoman(str) {
 
 async function loadSiminyms() {
   const dict = [];
-  const fileReader = await Deno.open("siminym-ja/all.lst");
+  const fileReader = await Deno.open("siminym-ja-repo/all.lst");
   for await (const line of readLines(fileReader)) {
     const word = line.split(",", 1)[0];
     dict.push(word);
@@ -281,7 +281,7 @@ async function build(grades, threshold) {
     const word = siminyms[i];
     if (word.length == 1) continue;
     // if (word in sudachiFilter == false) continue;
-    if (i == grades[gradePos] - 1) {
+    if (i >= grades[gradePos] - 1) {
       poses.push(words.length);
       gradePos += 1;
     }
