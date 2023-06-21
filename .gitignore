@@ -1,10 +1,10 @@
-.direnv/
-.envrc
+.venv/
 node_modules/
 cc.ja.300.vec
 cc.ja.300-small.vec
 cc.ja.300-small.magnitude
 remote.db
 SudachiDict
-siminym-ja
 yomi-dict
+siminym-ja-repo
+siminym-ja
