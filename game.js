@@ -24,7 +24,6 @@ async function _loadSudachiFilter() {
   const paths = [
     "SudachiDict/src/main/text/small_lex.csv",
     "SudachiDict/src/main/text/core_lex.csv",
-    "SudachiDict/src/main/text/notcore_lex.csv",
   ];
   for (const path of paths) {
     const fileReader = await Deno.open(path);
