@@ -1,4 +1,4 @@
-717,2373,4110,8623,18114,37506
+717,2373,4111,8623,18113,37505
 ます	masu
 です	desu
 ない	nai
@@ -185,7 +185,7 @@
 今年	konnnenn
 説明	setsumei
 物件	bukkenn
-画像	ezou
+画像	gazou
 状態	joutai
 映画	eiga
 いつも	itsumo
@@ -285,7 +285,7 @@
 更新	koushinn
 健康	kennkou
 違う	chigau
-近く	jikaku
+近く	chikaku
 存在	sonnzai
 一般	ippann
 センター	sennta-
@@ -511,6 +511,7 @@
 参考	sannkou
 送料	souryou
 タイプ	taipu
+そのまま	sonomama
 必ず	kanarazu
 動画	douga
 イメージ	ime-ji
@@ -1433,7 +1434,7 @@
 扱い	koi
 教師	kyoushi
 継続	keizoku
-決して	keshite
+決して	kesshite
 権利	kennri
 たっぷり	tappuri
 パスワード	pasuwa-do
@@ -2236,6 +2237,7 @@
 把握	haaku
 役立つ	yakudatsu
 保管	hokann
+萌え	moe
 設け	mouke
 プラント	purannto
 珍しい	mezurashii
@@ -2314,7 +2316,7 @@
 重い	omoi
 進化	shinnka
 人事	jinnji
-顧客	kokaku
+顧客	kokyaku
 実力	jitsuryoku
 芸能	geinou
 キャンセル	kyannseru
@@ -3198,7 +3200,7 @@
 速報	sokuhou
 試み	kokoromi
 ガイドライン	gaidorainn
-世帯	shotai
+世帯	setai
 ポケット	poketto
 抽選	chuusenn
 おこ	oko
@@ -3553,7 +3555,7 @@
 庭園	teienn
 ナンバー	nannba-
 描写	byousha
-両手	morote
+両手	ryoute
 緩和	kannwa
 持参	jisann
 先端	senntann
@@ -6934,6 +6936,7 @@
 干渉	kannshou
 愛車	aisha
 分担	bunntann
+まるごと	marugoto
 通院	tsuuinn
 愛好	aikou
 白馬	shirouma
@@ -9115,6 +9118,7 @@
 左上	hidariue
 くるくる	kurukuru
 シールド	shi-rudo
+丸ごと	marugoto
 づき	duki
 日の丸	hinomaru
 新春	shinnshunn
@@ -10621,7 +10625,6 @@
 喚起	kannki
 風潮	fuuchou
 検知	kennchi
-ロフト	rofuto
 ミスター	misuta-
 落ち葉	ochiba
 操業	sougyou
@@ -11115,7 +11118,6 @@
 愛顧	aiko
 リラクゼーション	rirakuze-shonn
 養う	yashinau
-エクセル	ekuseru
 開校	kaikou
 ヌード	nu-do
 変異	henni
@@ -11643,6 +11645,7 @@
 渡来	torai
 ハウジング	haujinngu
 どし	doshi
+ラブラブ	raburabu
 拾う	hirou
 見立て	mitate
 病床	byoushou
@@ -13761,6 +13764,7 @@
 のぞき	nozoki
 横領	ouryou
 砲撃	hougeki
+推し	suishi
 インターフェース	innta-fe-su
 素泊まり	sudomari
 ひじき	hijiki
@@ -14468,6 +14472,7 @@
 あぶない	abunai
 牧草	bokusou
 試用	shiyou
+ワンルーム	wannru-mu
 適時	tekiji
 公文	koubunn
 円満	ennmann
@@ -15965,7 +15970,7 @@
 値下がり	nesagari
 取り調べ	torishirabe
 拭く	fuku
-発疹	hasshinn
+発疹	hosshinn
 奥山	okuyama
 木の下	konoshita
 朝霞	asagasumi
@@ -17740,7 +17745,7 @@
 祝辞	shukuji
 二股	futamata
 学識	gakushiki
-朝飯	asahann
+朝飯	asameshi
 縫う	nuu
 不穏	fuonn
 たべる	taberu
@@ -19760,7 +19765,7 @@
 原資	gennshi
 祟り	tatari
 ガチンコ	gachinnko
-花色	kashoku
+花色	hanairo
 鬼ごっこ	onigokko
 微力	biryoku
 題する	daisuru
@@ -19774,7 +19779,7 @@
 委ねる	yudaneru
 戦況	sennkyou
 両用	ryouyou
-腕力	udedikara
+腕力	wannryoku
 歩合	buai
 走査	sousa
 白バイ	shirobai
@@ -19946,7 +19951,7 @@
 全車	zennsha
 アイランド	airanndo
 未完	mikann
-殺陣	satsujinn
+殺陣	tate
 ぷり	puri
 フィジカル	fijikaru
 ほど遠い	hodotooi
@@ -20142,6 +20147,7 @@
 訪中	houchuu
 曇天	donntenn
 粘る	nebaru
+シェイク	sheiku
 平民	heiminn
 赦し	yurushi
 プラセンタ	purasennta
@@ -20471,7 +20477,7 @@
 淑女	shukujo
 道府県	doufukenn
 モップ	moppu
-先取	sakidori
+先取	sennshu
 植え込み	uekomi
 依拠	ikyo
 サーボ	sa-bo
@@ -20853,6 +20859,7 @@
 たこやき	takoyaki
 クレー	kure-
 宝飾	houshoku
+カミングアウト	kaminnguauto
 戦利	sennri
 いじ	iji
 徹する	tessuru
@@ -21089,6 +21096,7 @@
 ほぐす	hogusu
 睨む	niramu
 揚げたて	agetate
+ワンパターン	wannpata-nn
 買付け	kaitsuke
 トロンボーン	toronnbo-nn
 ノイローゼ	noiro-ze
@@ -21635,6 +21643,7 @@
 残党	zanntou
 節操	sessou
 大義	taigi
+オワタ	owata
 新手	arate
 ファイリング	fairinngu
 ゆるし	yurushi
@@ -22381,6 +22390,7 @@
 恨む	uramu
 遮蔽	shahei
 生真面目	kimajime
+シス	shisu
 月数	gessuu
 付け足し	tsuketashi
 湿性	shissei
@@ -24357,7 +24367,6 @@
 小舟	kobune
 振舞う	furumau
 割引き	waribiki
-ナンバーズ	nannba-zu
 胎動	taidou
 養女	youjo
 病後	byougo
@@ -25749,7 +25758,7 @@
 溜まり場	tamariba
 バサミ	basami
 仏道	butsudou
-重用	juiyou
+重用	juuyou
 除幕	jomaku
 ミッドナイト	middonaito
 腹黒い	haraguroi
@@ -26171,11 +26180,12 @@
 毛嫌い	kegirai
 早産	souzann
 カレント	karennto
-気風	kippu
+気風	kifuu
 果糖	katou
 コーポ	ko-po
 自説	jisetsu
 つむ	tsumu
+ボーイズラブ	bo-izurabu
 扁桃	henntou
 分かれ道	wakaremichi
 懇意	konni
@@ -27877,6 +27887,7 @@
 なんのその	nannnosono
 バラック	barakku
 法名	houmyou
+左大臣	sadaijinn
 荒っぽい	arappoi
 かいじゅう	kaijuu
 青竹	aotake
@@ -28716,7 +28727,7 @@
 ヨタ	yota
 スキーマ	suki-ma
 左様	sayou
-権化	gonnke
+権化	gonnge
 丸刈り	marugari
 妥結	daketsu
 鏡開き	kagamibiraki
@@ -29332,6 +29343,7 @@
 原語	genngo
 シャベル	shaberu
 石切	ishikiri
+ラブコール	rabuko-ru
 摂氏	sesshi
 物真似	monomane
 分派	bunnpa
@@ -29440,6 +29452,7 @@
 めす	mesu
 アミーゴ	ami-go
 石楠花	shakunage
+ポタリング	potarinngu
 転進	tennshinn
 ピッケル	pikkeru
 行司	gyouji
@@ -30357,8 +30370,7 @@
 文士	bunnshi
 掘り返し	horikaeshi
 いざこざ	izakoza
-船便	sennbinn
-ウィニー	wini-
+船便	funabinn
 買い越し	kaikoshi
 掃海	soukai
 堅気	katagi
@@ -30735,7 +30747,7 @@
 要害	yougai
 色男	irootoko
 贋作	gannsaku
-強面	kowaomote
+強面	kowamote
 改易	kaieki
 トパーズ	topa-zu
 悔やむ	kuyamu
@@ -31059,6 +31071,7 @@
 極貧	gokuhinn
 俗説	zokusetsu
 ガツ	gatsu
+キャンプファイヤー	kyannpufaiya-
 キャミ	kyami
 華やぎ	hanayagi
 パラグラフ	paragurafu
@@ -31776,6 +31789,7 @@
 つぶる	tsuburu
 ビタ	bita
 バンドル	banndoru
+月見草	tsukimisou
 大刀	tachi
 愚息	gusoku
 いざない	izanai
@@ -31790,7 +31804,7 @@
 むっちり	mucchiri
 走り込み	hashirikomi
 ポッド	poddo
-禁漁	kinngyo
+禁漁	kinnryou
 ガンコ	gannko
 分乗	bunnjou
 トネリコ	toneriko
@@ -32084,6 +32098,7 @@
 焦土	shoudo
 ピラニア	pirania
 コンサルテーション	konnsarute-shonn
+ラリ	rari
 洗足	sennsoku
 商館	shoukann
 薪能	takiginou
@@ -32828,6 +32843,7 @@
 ゼニ	zeni
 デースケドガー	de-sukedoga-
 渡れる	watareru
+テントウムシ	tenntoumushi
 丁字	teiji
 跳ね返し	hanekaeshi
 和える	aeru
@@ -32958,8 +32974,10 @@
 正文	seibunn
 繁く	shigeku
 巨頭	kyotou
+オカメインコ	okameinnko
 めまぐるしい	memagurushii
 筆舌	hitsuzetsu
+ヤマボウシ	yamaboushi
 疼き	uzuki
 武神	bushinn
 引き摺り	hikizuri
@@ -33235,7 +33253,7 @@
 欄外	ranngai
 篝火	kagaribi
 前言	zenngenn
-主上	okami
+主上	shujou
 フサ	fusa
 晩婚	bannkonn
 しらべる	shiraberu
@@ -33637,7 +33655,7 @@
 原虫	gennchuu
 奥ゆかしい	okuyukashii
 みすみす	misumisu
-残り香	nokorika
+残り香	nokoriga
 おびえる	obieru
 為る	suru
 古稀	koki
@@ -34068,6 +34086,7 @@
 ヒジキ	hijiki
 忌々しい	imaimashii
 イナズマ	inazuma
+ツートップ	tsu-toppu
 テンプラ	tennpura
 簡裁	kannsai
 陽動	youdou
@@ -34950,6 +34969,7 @@
 ニッカン	nikkann
 猫舌	nekojita
 昇圧	shouatsu
+ミュ	myu
 棋界	kikai
 比丘尼	bikuni
 搗き	tsuki
@@ -34967,6 +34987,7 @@
 インフレーション	innfure-shonn
 死に際	shinigiwa
 タジン	tajinn
+タマモ	tamamo
 涙ぐむ	namidagumu
 捲る	mekuru
 フィラー	fira-
@@ -35152,6 +35173,7 @@
 はずせる	hazuseru
 イグサ	igusa
 聖天	seitenn
+ロウバイ	roubai
 上がったり	agattari
 蒸し返し	mushikaeshi
 ポルト	poruto
@@ -35537,7 +35559,6 @@
 チャンプルー	channpuru-
 ゴクリ	gokuri
 シャリシャリ	sharishari
-イルミナティ	iruminathi
 闘気	touki
 霊水	reisui
 かぶれる	kabureru
@@ -35977,8 +35998,10 @@
 ナチズム	nachizumu
 白刃	shiraha
 せんこう	sennkou
+ワイルドカード	wairudoka-do
 生みの親	uminooya
 わだつみ	wadatsumi
+インスパイヤ	innsupaiya
 オートマトン	o-tomatonn
 中葉	chuuyou
 かりかり	karikari
@@ -36234,7 +36257,7 @@
 卒塔婆	sotouba
 地黄	jiou
 アクビ	akubi
-賓客	hinnkaku
+賓客	hinnkyaku
 オドオド	odoodo
 コンフォート	konnfo-to
 木魚	mokugyo
@@ -36829,6 +36852,7 @@
 エターナル	eta-naru
 白狐	shirogitsune
 パキラ	pakira
+アゲハチョウ	agehachou
 ティンパニ	thinnpani
 不逞	futei
 プルコギ	purukogi
@@ -37035,6 +37059,7 @@
 タテマエ	tatemae
 木枯し	kogarashi
 科する	kasuru
+キスマーク	kisuma-ku
 改姓	kaisei
 低落	teiraku
 併行	heikou
@@ -37081,6 +37106,7 @@
 シャーク	sha-ku
 プレタ	pureta
 死する	shisuru
+メダイ	medai
 持主	mochinushi
 名僧	meisou
 マグノリア	magunoria
@@ -38017,7 +38043,7 @@
 地租	chiso
 務まる	tsutomaru
 縁台	enndai
-挿画	sashie
+挿画	souga
 雪男	yukiotoko
 トリアージ	toria-ji
 アカデミア	akademia
@@ -38232,7 +38258,7 @@
 シラフ	shirafu
 スタッズ	sutazzu
 閣内	kakunai
-心算	kokorodumori
+心算	shinnsann
 正伝	seidenn
 クラリオン	kurarionn
 生け簀	ikesu
@@ -38453,6 +38479,7 @@
 学理	gakuri
 雑魚寝	zakone
 キャンギャル	kyanngyaru
+マッコウクジラ	makkoukujira
 ただ者	tadamono
 ドーラ	do-ra
 ぼた餅	botamochi
@@ -38780,6 +38807,7 @@
 捻くれ	hinekure
 泥土	deido
 わいろ	wairo
+カミキリムシ	kamikirimushi
 はとこ	hatoko
 ジェントル	jenntoru
 ファシリティ	fashirithi
@@ -38867,7 +38895,6 @@
 ヌイグルミ	nuigurumi
 クロース	kuro-su
 かぎる	kagiru
-ナタル	nataru
 木挽	kobiki
 イエイ	iei
 モヘア	mohea
@@ -39103,6 +39130,7 @@
 ブランカ	burannka
 易学	ekigaku
 東北東	touhokutou
+黒文字	kuromoji
 まっしろ	masshiro
 ディベロッパー	dhiberoppa-
 入幕	nyuumaku
@@ -39671,6 +39699,7 @@
 勝り	masari
 フューチャーズ	fyu-cha-zu
 もだえ	modae
+リバーブ	riba-bu
 剛毅	gouki
 大力	dairiki
 怪傑	kaiketsu
@@ -39969,6 +39998,7 @@
 山かけ	yamakake
 池塘	chitou
 ティーンズ	thi-nnzu
+ブックマークレット	bukkuma-kuretto
 ポッチャリ	pocchari
 図譜	zufu
 パパン	papann
@@ -40608,6 +40638,7 @@
 先妻	sennsai
 ざお	zao
 プレイン	pureinn
+ヘヴン	hevunn
 ぷく	puku
 火中	kachuu
 ガケ	gake
@@ -40902,6 +40933,7 @@
 けんご	kenngo
 哀切	aisetsu
 検尿	kennnyou
+ピスト	pisuto
 業物	wazamono
 半目	hannmoku
 同形	doukei
@@ -41511,6 +41543,7 @@
 にらみ合い	niramiai
 癲癇	tennkann
 私募	shibo
+チェンジャー	chennja-
 トロイカ	toroika
 ルバーブ	ruba-bu
 被布	hifu
@@ -41755,6 +41788,7 @@
 軟体	nanntai
 とげる	togeru
 国風	kokufuu
+スキュー	sukyu-
 カゼイン	kazeinn
 コバエ	kobae
 カンツォーネ	kanntso-ne
@@ -42086,6 +42120,7 @@
 ツァール	tsa-ru
 初っぱな	shoppana
 照応	shouou
+サイコパス	saikopasu
 船積み	funadumi
 リジン	rijinn
 トランスミッター	torannsumitta-
@@ -42346,6 +42381,7 @@
 紙巻	kamimaki
 どぎまぎ	dogimagi
 言葉少な	kotobazukuna
+オオハクチョウ	oohakuchou
 カンフー	kannfu-
 文展	bunntenn
 かたびら	katabira
@@ -43579,6 +43615,7 @@
 織り姫	orihime
 前ぶれ	maebure
 つぐむ	tsugumu
+山法師	yamaboushi
 搾油	sakuyu
 イヤラシイ	iyarashii
 まき網	makiami
@@ -43669,6 +43706,7 @@
 カニューレ	kanyu-re
 内局	naikyoku
 腔内	kounai
+オカヤドカリ	okayadokari
 反撥	hannpatsu
 早耳	hayamimi
 駿馬	shunnba
@@ -43960,6 +43998,7 @@
 夢現	yumeutsutsu
 合邦	gappou
 他動	tadou
+ゴンズイ	gonnzui
 ローディー	ro-dhi-
 謀り	tabakari
 鎮咳	chinngai
@@ -44199,6 +44238,7 @@
 アーウィン	a-winn
 定昇	teishou
 厄日	yakubi
+キンメダイ	kinnmedai
 端折り	hashiori
 ドパミン	dopaminn
 本震	honnshinn
@@ -44736,6 +44776,7 @@
 継嗣	keishi
 女衒	zegenn
 野合	yagou
+オオヤマレンゲ	ooyamarennge
 授権	jukenn
 エンターティナー	ennta-thina-
 ヱビス	wyebisu
@@ -45128,6 +45169,7 @@
 キラル	kiraru
 貸せる	kaseru
 斉射	seisha
+リップスティック	rippusuthikku
 極微	kyokubi
 鉄騎	tekki
 鎌鼬	kamaitachi
@@ -45516,7 +45558,6 @@
 セキララ	sekirara
 外濠	sotobori
 甌穴	ouketsu
-サーフェス	sa-fesu
 升目	masume
 吹きさらし	fukisarashi
 斯界	shikai
@@ -45774,6 +45815,7 @@
 鼻つまみ	hanatsumami
 シスプラチン	shisupurachinn
 思う様	omousama
+エムエル	emueru
 ボルゾイ	boruzoi
 衡平	kouhei
 ミノキシジル	minokishijiru
@@ -46085,7 +46127,6 @@
 まちどおしい	machidooshii
 道づれ	michidure
 楽音	gakuonn
-オーパ	o-pa
 愛息	aisoku
 南緯	nanni
 買い主	kainushi
@@ -46141,6 +46182,7 @@
 後厄	atoyaku
 字訓	jikunn
 ガツン	gatsunn
+バイオインフォマティクス	baioinnfomathikusu
 連雀	rennjaku
 ぷっつり	puttsuri
 やいやい	yaiyai
@@ -46664,6 +46706,7 @@
 ジューク	ju-ku
 ジャカード	jaka-do
 唱う	utau
+ファインダ	fainnda
 屍骸	shigai
 雌伏	shifuku
 チョイノリ	choinori
@@ -47085,6 +47128,7 @@
 マタニティー	matanithi-
 サイホン	saihonn
 歯ならび	hanarabi
+コアジサシ	koajisashi
 ユーベ	yu-be
 式台	shikidai
 立党	rittou
@@ -47430,6 +47474,7 @@
 採炭	saitann
 纐纈	koukechi
 じらい	jirai
+コマイ	komai
 くべる	kuberu
 メルトモ	merutomo
 とまり木	tomarigi
@@ -47500,6 +47545,7 @@
 うたて	utate
 秋日和	akibiyori
 あがめる	agameru
+ヤマブドウ	yamabudou
 新樹	shinnju
 乱行	rannkou
 アラウンド	araunndo
@@ -47790,6 +47836,7 @@
 蛮骨	bannkotsu
 県花	kennka
 ダール	da-ru
+ムクノキ	mukunoki
 尾ビレ	obire
 キャピタリズム	kyapitarizumu
 微香	bikou
@@ -48110,6 +48157,7 @@
 王命	oumei
 披針	hishinn
 中老	chuurou
+ウバメガシ	ubamegashi
 朝家	chouka
 けがらわしい	kegarawashii
 ヘナヘナ	henahena
@@ -48199,6 +48247,7 @@
 のぼせる	noboseru
 火急	kakyuu
 角い	kakui
+サンシュユ	sannshuyu
 マイルズ	mairuzu
 同隊	doutai
 旋削	sennsaku
@@ -48206,6 +48255,7 @@
 ブタクサ	butakusa
 オクトーバーフェスト	okuto-ba-fesuto
 曲尺	kanejaku
+コロダイ	korodai
 不忠	fuchuu
 浮き浮き	ukiuki
 あ然	azenn
@@ -48512,6 +48562,7 @@
 ドコサヘキサエン	dokosahekisaenn
 フーゾク	fu-zoku
 地労委	chiroui
+なつみかん	natsumikann
 ファージ	fa-ji
 好運	kouunn
 美称	bishou
@@ -48658,6 +48709,7 @@
 ぎゅうひ	gyuuhi
 メディック	medhikku
 あばれる	abareru
+オーバーテイク	o-ba-teiku
 ヘット	hetto
 オボロ	oboro
 カリタス	karitasu
@@ -49388,6 +49440,7 @@
 サンダ	sannda
 ジョガー	joga-
 片男波	kataonami
+クロモジ	kuromoji
 描き直し	kakinaoshi
 しとど	shitodo
 愛書	aisho
@@ -49444,6 +49497,7 @@
 禅林	zennrinn
 べき乗	bekijou
 雪片	seppenn
+コチョウラン	kochourann
 バンテージ	bannte-ji
 中入	nakairi
 おちこぼれ	ochikobore
@@ -49522,7 +49576,6 @@
 珍宝	chinnpou
 巡見	junnkenn
 交趾	koushi
-東天紅	toutennkou
 糖衣	toui
 猶子	yuushi
 せんしょう	sennshou
@@ -49732,6 +49785,7 @@
 もぎり	mogiri
 火袋	hibukuro
 仮初	karisome
+ガザミ	gazami
 章句	shouku
 以來	irai
 コントラクト	konntorakuto
@@ -50115,6 +50169,7 @@
 おちつき	ochitsuki
 爆沈	bakuchinn
 砲声	housei
+天道虫	tenntoumushi
 裏作	urasaku
 こげる	kogeru
 寵姫	chouki
@@ -50351,7 +50406,6 @@
 こころない	kokoronai
 ガリー	gari-
 ツィーター	tsi-ta-
-明電舎	meidennsha
 オクタン	okutann
 民地	minnchi
 陸屋根	rokuyane
@@ -50396,6 +50450,7 @@
 奇問	kimonn
 ギンギラギン	ginngiraginn
 明晩	myoubann
+サクラエビ	sakuraebi
 ナイーヴ	nai-vu
 ヒヨッコ	hiyokko
 イトトンボ	itotonnbo
@@ -50417,6 +50472,7 @@
 けっしょう	kesshou
 びくびく	bikubiku
 青じろい	aojiroi
+ギョウジャニンニク	gyoujaninnniku
 うつりかわり	utsurikawari
 アモーレ	amo-re
 ビフォー	bifo-
@@ -50883,6 +50939,7 @@
 メディケア	medhikea
 皇霊	kourei
 爪弾き	tsumabiki
+デイライト	deiraito
 仄聞	sokubunn
 月白	tsukishiro
 もだえる	modaeru
@@ -51180,6 +51237,7 @@
 水張り	mizubari
 ダイアフラム	daiafuramu
 釘抜き	kuginuki
+ムベ	mube
 カイエ	kaie
 鼻唄	hanauta
 デンドロ	denndoro
@@ -51222,6 +51280,7 @@
 銀鉱	ginnkou
 ビッチリ	bicchiri
 このましい	konomashii
+イノブタ	inobuta
 在天	zaitenn
 スレイブ	sureibu
 勇戦	yuusenn
@@ -51593,7 +51652,7 @@
 鬱気	ukki
 すきっ腹	sukippara
 コンベヤー	konnbeya-
-氷嚢	kooribukuro
+氷嚢	hyounou
 あら捜し	arasagashi
 かっこん	kakkonn
 物忌み	monoimi
@@ -51651,6 +51710,7 @@
 ビロウ	birou
 小暑	shousho
 諸表	shohyou
+バックトラック	bakkutorakku
 爺むさい	jijimusai
 こころぼそい	kokorobosoi
 アジュバント	ajubannto
@@ -52707,6 +52767,7 @@
 清白	suzushiro
 ヤア	yaa
 交誼	kougi
+マテバシイ	matebashii
 すぐれる	sugureru
 ボヤく	boyaku
 増販	zouhann
@@ -52766,7 +52827,7 @@
 蓮華草	renngesou
 こにくらしい	konikurashii
 べったら漬	bettaraduke
-行手	gyoute
+行手	yukute
 パーミル	pa-miru
 ウインナ	uinnna
 笑話	shouwa
@@ -52842,6 +52903,7 @@
 単文	tannbunn
 後金	atokinn
 柄頭	tsukagashira
+イタヤカエデ	itayakaede
 セコイア	sekoia
 丸焼け	maruyake
 女もの	onnnamono
@@ -52940,6 +53002,7 @@
 上隅	uesumi
 経世	keisei
 クロアゲハ	kuroageha
+ブレッドボード	bureddobo-do
 秋海棠	shuukaidou
 キブツ	kibutsu
 フィネス	finesu
@@ -53423,6 +53486,7 @@
 早婚	soukonn
 聞苦しい	kikigurushii
 にあわしい	niawashii
+シデコブシ	shidekobushi
 本初	honnsho
 けんもほろろ	kennmohororo
 せんりゅう	sennryuu
@@ -54052,6 +54116,7 @@
 再認	saininn
 泣き泣き	nakinaki
 かどかどしい	kadokadoshii
+バンバンジー	bannbannji-
 彫り込み	horikomi
 振る舞える	furumaeru
 ちらばる	chirabaru
@@ -54634,6 +54699,7 @@
 白瓜	shirouri
 膨れっ面	fukurettsura
 ピュッ	pyuxtu
+プレカリアート	purekaria-to
 レビュワー	rebyuwa-
 古滝	furutaki
 界わい	kaiwai
@@ -54789,6 +54855,7 @@
 せん滅	sennmetsu
 彼此	karekore
 重犯	juuhann
+チョリ	chori
 小鴨	kogamo
 石亀	ishigame
 認諾	ninndaku
@@ -55011,6 +55078,7 @@
 ビョウ	byou
 リコンファーム	rikonnfa-mu
 洗いたて	araitate
+コナギ	konagi
 滅す	horobosu
 肺門	haimonn
 エスキース	esuki-su
@@ -55049,6 +55117,7 @@
 示指	shishi
 かかわれる	kakawareru
 ひっくり返せる	hikkurikaeseru
+ハチク	hachiku
 ファーマーズ	fa-ma-zu
 溜る	tamaru
 蕉門	shoumonn
@@ -55298,6 +55367,7 @@
 チャツネ	chatsune
 民力	minnryoku
 身繕い	midukuroi
+タゲリ	tageri
 危地	kichi
 宗論	shuuronn
 縛り首	shibarikubi
@@ -55696,7 +55766,7 @@
 流し網	nagashiami
 オマワリ	omawari
 梅ぼし	umeboshi
-簀子	sugo
+簀子	sunoko
 邀撃	yougeki
 金塚	kaneduka
 あかき	akaki
@@ -55863,6 +55933,7 @@
 ピング	pinngu
 分福	bunnpuku
 隊伍	taigo
+エムエム	emuemu
 傾動	keidou
 夜宴	yaenn
 キャリヤ	kyariya
@@ -55953,6 +56024,7 @@
 小癪	koshaku
 さかのぼれる	sakanoboreru
 オナー	ona-
+ラテアート	ratea-to
 働き蟻	hatarakiari
 海国	kaikoku
 ハンペン	hannpenn
@@ -56001,6 +56073,7 @@
 着陣	chakujinn
 トリート	tori-to
 猩猩	shoujou
+アキノキリンソウ	akinokirinnsou
 ニーベルンゲン	ni-berunngenn
 溶脱	youdatsu
 ずんと	zunnto
@@ -56092,6 +56165,7 @@
 守役	moriyaku
 白粥	shirakayu
 石塊	ishikure
+ネギマ	negima
 母型	bokei
 麻紙	mashi
 大官	taikann
@@ -56121,6 +56195,7 @@
 フットライト	futtoraito
 外米	gaimai
 カラフ	karafu
+ハナノキ	hananoki
 パツパツ	patsupatsu
 封かん	fuukann
 浮木	ukigi
@@ -56150,6 +56225,7 @@
 陰間	kagema
 みだす	midasu
 ミリシーベルト	mirishi-beruto
+予冷	yorei
 水溜	mizutamari
 胚胎	haitai
 キツメ	kitsume
@@ -56376,7 +56452,7 @@
 倶舎	kusha
 墨書き	sumigaki
 多血	taketsu
-曹達	souda
+曹達	so-da
 ガガイモ	gagaimo
 卒中	socchuu
 漂砂	hyousa
@@ -56389,6 +56465,7 @@
 接ぐ	hagu
 月参り	tsukimairi
 ばてる	bateru
+スタイロフォーム	sutairofo-mu
 手回り	temawari
 オォ	oxo
 爪弾く	tsumabiku
@@ -56480,6 +56557,7 @@
 ジャリメ	jarime
 行年	gyounenn
 朗誦	roushou
+ウスバカゲロウ	usubakagerou
 洞内	dounai
 はげ頭	hageatama
 ロリエ	rorie
@@ -56770,6 +56848,7 @@
 抄出	shoushutsu
 リムーバブル	rimu-baburu
 わが輩	wagahai
+カンダイ	kanndai
 ターボプロップ	ta-bopuroppu
 レタ	reta
 京おんな	kyouonnna
@@ -56898,6 +56977,7 @@
 私憤	shifunn
 うちつけ	uchitsuke
 アバンセ	abannse
+ショウタイム	shoutaimu
 偸盗	chuutou
 のばせる	nobaseru
 先払	sakibarai
@@ -56909,6 +56989,7 @@
 庭前	teizenn
 漫然	mannzenn
 オオハシ	oohashi
+モツゴ	motsugo
 メソード	meso-do
 メンタイ	menntai
 プリチー	purichi-
@@ -57005,6 +57086,7 @@
 テイン	teinn
 応化	ouka
 茶筌	chasenn
+アカゲザル	akagezaru
 武備	bubi
 飲屋	nomiya
 キャリッジ	kyarijji
@@ -57026,6 +57108,7 @@
 濫觴	rannshou
 ボダイ	bodai
 同右	douu
+オウムガイ	oumugai
 パターニング	pata-ninngu
 夏眠	kaminn
 綺談	kidann
@@ -57787,6 +57870,7 @@
 すだく	sudaku
 アツモリソウ	atsumorisou
 アンフェア	annfea
+ジャノヒゲ	janohige
 レッキ	rekki
 サイドアウト	saidoauto
 エクスプロージョン	ekusupuro-jonn
@@ -57880,7 +57964,6 @@
 オルガノ	orugano
 鹿骨	shikabone
 すたれる	sutareru
-フォルティス	foruthisu
 悪所	akusho
 手切れ	tegire
 ぎもん	gimonn
@@ -57930,6 +58013,7 @@
 引付	hikitsuke
 神助	shinnjo
 アクセシブル	akuseshiburu
+サラサドウダン	sarasadoudann
 引接	innsetsu
 背泳	seoyogi
 かしこまる	kashikomaru
@@ -57955,11 +58039,11 @@
 ペプシン	pepushinn
 レプトン	reputonn
 受配	juhai
-アミカ	amika
 公電	koudenn
 捨札	sutefuda
 昭代	shoudai
 キタマクラ	kitamakura
+ドロワーズ	dorowa-zu
 マブタ	mabuta
 小判鮫	kobannzame
 尺取虫	shakutorimushi
@@ -58081,7 +58165,6 @@
 瘋癲	fuutenn
 白太	shirata
 はんもん	hannmonn
-オキシ	okishi
 カムサハムニダ	kamusahamunida
 安ど	anndo
 徹マン	tetsumann
@@ -58180,6 +58263,7 @@
 ユマニテ	yumanite
 転成	tennsei
 灯光	toukou
+シュウメイギク	shuumeigiku
 広本	kouhonn
 降霜	kousou
 バガス	bagasu
@@ -58215,6 +58299,7 @@
 パウダリー	paudari-
 瀬尻	sejiri
 ち密	chimitsu
+ヒムロ	himuro
 汁け	shiruke
 稚気	chiki
 チャカチャカ	chakachaka
@@ -58859,6 +58944,7 @@
 数数	kazukazu
 ちがえる	chigaeru
 タッパーウェア	tappa-wea
+ユムシ	yumushi
 巻網	makiami
 ヌケヌケ	nukenuke
 ヤブガラシ	yabugarashi
@@ -59018,6 +59104,7 @@
 原級	gennkyuu
 字解	jikai
 アロマターゼ	aromata-ze
+ウワミズザクラ	uwamizuzakura
 シタビラメ	shitabirame
 ぐずつく	guzutsuku
 三献	sannkonn
@@ -59090,6 +59177,7 @@
 遺著	icho
 アルジルリン	arujirurinn
 コプラ	kopura
+ジャコウネコ	jakouneko
 フィレット	firetto
 訳読	yakudoku
 試釣	shichou
@@ -59184,6 +59272,7 @@
 エンビ	ennbi
 楼主	roushu
 謗る	soshiru
+ヒガイ	higai
 ポトポト	potopoto
 欺罔	kimou
 首縊り	kubikukuri
@@ -59580,6 +59669,7 @@
 尾ヒレ	ohire
 潜戸	kugurido
 キューティ	kyu-thi
+セイタカシギ	seitakashigi
 寺子	terako
 村芝居	murashibai
 燃材	nennzai
@@ -59652,6 +59742,7 @@
 ぴっかぴか	pikkapika
 メナス	menasu
 リヤサス	riyasasu
+インバウンド	innbaunndo
 トイトイ	toitoi
 端書	hashigaki
 シオシオ	shioshio
@@ -59663,7 +59754,6 @@
 累年	ruinenn
 デカップリング	dekappurinngu
 パッパ	pappa
-アマンド	amanndo
 シャドウイング	shadouinngu
 社日	shanichi
 川道	kawamichi
@@ -59794,6 +59884,7 @@
 短艇	tanntei
 なまける	namakeru
 イエベ	iebe
+ショウリョウバッタ	shouryoubatta
 としごろ	toshigoro
 ガボット	gabotto
 ギーギー	gi-gi-
@@ -59821,6 +59912,7 @@
 忍び返し	shinobigaeshi
 茶味	chami
 テンメンジャン	tennmennjann
+ハマボウフウ	hamaboufuu
 フートン	fu-tonn
 単項	tannkou
 そめる	someru
@@ -59864,6 +59956,7 @@
 矢の根	yanone
 離せる	hanaseru
 インネン	innnenn
+カイズ	kaizu
 ミッジ	mijji
 弯曲	wannkyoku
 造機	zouki
@@ -60008,6 +60101,7 @@
 屈す	kussu
 ニカド	nikado
 ヘデラ	hedera
+アントレプレナーシップ	anntorepurena-shippu
 劇毒	gekidoku
 輓馬	bannba
 春暖	shunndann
@@ -60062,6 +60156,7 @@
 ローカス	ro-kasu
 対当	taitou
 足げ	ashige
+シードラゴン	shi-doragonn
 スピロヘータ	supirohe-ta
 ダーリング	da-rinngu
 ホブゴブリン	hobugoburinn
@@ -60078,6 +60173,7 @@
 ノッペリ	nopperi
 内内	uchiuchi
 ケルプ	kerupu
+ムラサキケマン	murasakikemann
 底意	sokoi
 目名	mokumei
 むかばき	mukabaki
@@ -60147,6 +60243,7 @@
 タンポ	tannpo
 フラグシップ	furagushippu
 摸索	mosaku
+サクラダイ	sakuradai
 ターラ	ta-ra
 幽邃	yuusui
 真金	magane
@@ -60313,6 +60410,7 @@
 ラメラ	ramera
 斑猫	hannmyou
 満堂	manndou
+キイロスズメバチ	kiirosuzumebachi
 通力	tsuuriki
 存念	zonnnenn
 森森	shinnshinn
@@ -60398,6 +60496,7 @@
 チョッキン	chokkinn
 母后	hahakisaki
 こうなご	kounago
+カネヒラ	kanehira
 手跡	shuseki
 淫液	inneki
 自流	jiryuu
@@ -60511,6 +60610,7 @@
 イエネコ	ieneko
 新口	shinnkou
 露盤	robann
+トキシラズ	tokishirazu
 ボリウム	boriumu
 供す	kyousu
 有生	yuusei
@@ -60960,6 +61060,7 @@
 小我	shouga
 端本	hahonn
 がみがみ	gamigami
+アズマシャクナゲ	azumashakunage
 シュウメイ	shuumei
 ジーゼル	ji-zeru
 ハーベスター	ha-besuta-
@@ -60969,6 +61070,7 @@
 そ上	sojou
 なぜる	nazeru
 めいし	meishi
+ナナホシテントウ	nanahoshitenntou
 レンダー	rennda-
 作男	sakuotoko
 轢殺	rekisatsu
@@ -61163,6 +61265,7 @@
 未申	hitsujisaru
 泥海	doroumi
 船路	funaji
+ウドンゲ	udonnge
 デンドロビューム	denndorobyu-mu
 ドラバラ	dorabara
 担ぎ屋	katsugiya
@@ -61191,6 +61294,7 @@
 つくつくぼうし	tsukutsukuboushi
 溶離	youri
 スターチ	suta-chi
+ハナズオウ	hanazuou
 フィーダ	fi-da
 老巧	roukou
 はだら	hadara
@@ -61485,6 +61589,7 @@
 ニョキッ	nyokixtu
 耳漏	jirou
 莫逆	bakugyaku
+ハクサンシャクナゲ	hakusannshakunage
 バッケン	bakkenn
 微震	bishinn
 ソーティング	so-thinngu
@@ -61540,6 +61645,7 @@
 西戎	seijuu
 紋織	monnori
 試製	shisei
+ハエトリグモ	haetorigumo
 みづく	miduku
 セルリアン	seruriann
 雷霆	raitei
@@ -61717,6 +61823,7 @@
 生紙	kigami
 ゆでダコ	yudedako
 ダンジリ	dannjiri
+マアナゴ	maanago
 ループス	ru-pusu
 別席	besseki
 成り立て	naritate
@@ -61957,6 +62064,7 @@
 仙丹	senntann
 膳部	zennbu
 つうかあ	tsuukaa
+シイノキ	shiinoki
 ジフェンヒドラミン	jifennhidoraminn
 チロリアン	chiroriann
 ペドフィリア	pedofiria
@@ -62034,6 +62142,7 @@
 無根	mukonn
 ことほぐ	kotohogu
 だぶつき	dabutsuki
+アブラヤシ	aburayashi
 ラクタム	rakutamu
 宝鑑	houkann
 正坐	seiza
@@ -62127,6 +62236,7 @@
 経帷子	kyoukatabira
 荊棘	ibara
 ウマノスズクサ	umanosuzukusa
+ヤチダモ	yachidamo
 空包	kuuhou
 壊乱	kairann
 アデリー	aderi-
@@ -62219,6 +62329,7 @@
 スタンドオフ	sutanndoofu
 献ずる	kennzuru
 麹屋	koujiya
+オオデマリ	oodemari
 ガハハハ	gahahaha
 プレシジョン	pureshijonn
 雑筆	zappitsu
@@ -62316,12 +62427,14 @@
 小間切れ	komagire
 權利	kennri
 重祚	juuso
+フソウ	fusou
 凶変	kyouhenn
 脂粉	shifunn
 ラミナ	ramina
 栓塞	sennsoku
 うるさ型	urusagata
 えんじん	ennjinn
+アオブダイ	aobudai
 スウェル	suweru
 センシ	sennshi
 口辺	kouhenn
@@ -62515,6 +62628,7 @@
 巻層雲	kennsouunn
 来信	raishinn
 演戯	enngi
+シャクトリムシ	shakutorimushi
 名節	meisetsu
 吟じる	ginnjiru
 船子	funako
@@ -62588,12 +62702,14 @@
 白蜜	shiromitsu
 ダイヤリー	daiyari-
 ランサ	rannsa
+キクイムシ	kikuimushi
 グラインダ	gurainnda
 スカビオサ	sukabiosa
 従士	juushi
 手植	teue
 綿雲	watagumo
 ぺえ	pee
+トウネン	tounenn
 万骨	bannkotsu
 国憲	kokkenn
 悔過	keka
@@ -62684,6 +62800,7 @@
 含嗽	gannsou
 しょうきん	shoukinn
 アニィ	anyi
+ニホンアカガエル	nihonnakagaeru
 萌し	kizashi
 行火	annka
 マダカ	madaka
@@ -62836,7 +62953,7 @@
 アブラガニ	aburagani
 安座	annza
 役する	ekisuru
-指事	sashigoto
+指事	shiji
 ウカツ	ukatsu
 太虚	taikyo
 ぺたり	petari
@@ -63124,6 +63241,7 @@
 フィアー	fia-
 塗絵	nurie
 奇手	kishu
+ガンピ	gannpi
 ヤガラ	yagara
 きざす	kizasu
 プロテア	purotea
@@ -63152,7 +63270,6 @@
 敲く	tataku
 炊屋	kashikiya
 痴愚	chigu
-ジェッター	jetta-
 ブリュット	buryutto
 左うちわ	hidariuchiwa
 染殿	somedono
@@ -63251,6 +63368,7 @@
 珍談	chinndann
 衝天	shoutenn
 長講	choukou
+ウージ	u-ji
 ゲートウエイ	ge-touei
 タクワン	takuwann
 ティント	thinnto
@@ -63477,6 +63595,7 @@
 玉糸	tamaito
 アジャストメント	ajasutomennto
 ボルボックス	borubokkusu
+ヴィーガン	vi-gann
 偽称	gishou
 汗みどろ	asemidoro
 モンゴ	monngo
@@ -63803,6 +63922,7 @@
 見張	mihari
 こんぱい	konnpai
 インストルメンタル	innsutorumenntaru
+キバナシャクナゲ	kibanashakunage
 ライセンシング	raisennshinngu
 盲唖	moua
 詮方	sennkata
@@ -63858,6 +63978,7 @@
 割目	wareme
 売りオペ	uriope
 しおふき	shiofuki
+アユモドキ	ayumodoki
 ケイパー	keipa-
 悲母	hibo
 逓倍	teibai
@@ -63940,6 +64061,7 @@
 佩楯	haidate
 さら地	sarachi
 ひさぐ	hisagu
+クロカワ	kurokawa
 コメツキ	kometsuki
 マニュキア	manyukia
 御寮	goryou
@@ -64034,6 +64156,7 @@
 わずらう	wazurau
 サヨウ	sayou
 あやまつ	ayamatsu
+ナツミカン	natsumikann
 小身	shoushinn
 早老	sourou
 熾火	okibi
@@ -64190,11 +64313,13 @@
 アヴェニュー	avenyu-
 タヒチアン	tahichiann
 データグラム	de-taguramu
+ミネザクラ	minezakura
 安危	annki
 通論	tsuuronn
 ほろびる	horobiru
 アシドフィルス	ashidofirusu
 タパ	tapa
+ニホンリス	nihonnrisu
 上乗	joujou
 勧化	kannge
 古京	kokyou
@@ -64437,7 +64562,6 @@
 副える	soeru
 副署	fukusho
 嘶く	inanaku
-山帽子	yamaboushi
 槿花	kinnka
 葬れる	houmureru
 蒸せる	museru
@@ -64481,6 +64605,7 @@
 白描	hakubyou
 アビリティー	abirithi-
 ウオー	uo-
+コメツキムシ	kometsukimushi
 ソウシチョウ	soushichou
 指命	shimei
 月毛	tsukige
@@ -64659,6 +64784,7 @@
 たつのおとしご	tatsunootoshigo
 錦上	kinnjou
 いく分	ikubunn
+イチヤクソウ	ichiyakusou
 エブリー	eburi-
 バーマン	ba-mann
 威武	ibu
@@ -64897,11 +65023,13 @@
 参堂	sanndou
 支沢	shisawa
 おっこちる	okkochiru
+イワヒバ	iwahiba
 士風	shifuu
 正嫡	seichaku
 混とん	konntonn
 鼓手	koshu
 ポンパドゥール	ponnpadwu-ru
+ヤシャブシ	yashabushi
 吸いかけ	suikake
 回流	kairyuu
 盾突く	tatetsuku
@@ -64918,6 +65046,7 @@
 御寝	gyoshinn
 総掛かり	sougakari
 ぽんつく	ponntsuku
+カスザメ	kasuzame
 冠す	kannsu
 区切れる	kugireru
 楽寝	rakune
@@ -64933,6 +65062,7 @@
 埋骨	maikotsu
 残火	zannka
 つよめる	tsuyomeru
+タヒバリ	tahibari
 ムシガレイ	mushigarei
 海鼠腸	konowata
 猫額	byougaku
@@ -65003,6 +65133,7 @@
 茶利	chari
 くみす	kumisu
 むちゅう	muchuu
+ゲットウ	gettou
 伏射	fukusha
 再説	saisetsu
 凶賊	kyouzoku
@@ -65018,6 +65149,7 @@
 キヌガサ	kinugasa
 バイイング	baiinngu
 リパブリック	ripaburikku
+ワークプレイス	wa-kupureisu
 揚る	agaru
 真率	shinnsotsu
 祝酒	iwaizake
@@ -65309,6 +65441,7 @@
 通谷	tsuukoku
 うぶ声	ubugoe
 アバント	abannto
+チュウシャクシギ	chuushakushigi
 パーマロイ	pa-maroi
 仏徳	buttoku
 推賞	suishou
@@ -65390,6 +65523,7 @@
 宏壮	kousou
 銀あん	ginnann
 お多福豆	otafukumame
+オオスカシバ	oosukashiba
 上底	agezoko
 受働	judou
 寄書	kisho
@@ -65423,6 +65557,7 @@
 行々子	gyougyoushi
 しゃれる	shareru
 サイコセラピー	saikoserapi-
+ジュウイチ	juuichi
 デモストレーション	demosutore-shonn
 ノーチェ	no-che
 リマインダ	rimainnda
@@ -65444,6 +65579,7 @@
 留別	ryuubetsu
 荊冠	keikann
 びしっ	bishixtu
+フトイ	futoi
 泥足	doroashi
 メジカ	mejika
 十露盤	sorobann
@@ -65459,6 +65595,7 @@
 毎秋	maiaki
 ついやす	tsuiyasu
 ドッキン	dokkinn
+ヴードゥー	vu-dwu-
 カンシャク	kannshaku
 スタンザ	sutannza
 タッカルビ	takkarubi
@@ -65620,8 +65757,8 @@
 義戦	gisenn
 電鈴	dennrei
 露座	roza
+ダブリー	daburi-
 ナーシング	na-shinngu
-ルミエール	rumie-ru
 暗鬼	annki
 珍聞	chinnbunn
 袖珍	shuuchinn
@@ -65714,6 +65851,7 @@
 打ちあわせ	uchiawase
 朝明け	asaake
 にぶる	niburu
+ホタルイ	hotarui
 マーヤー	ma-ya-
 廻状	kaijou
 河清	kasei
@@ -65845,6 +65983,7 @@
 コキール	koki-ru
 ロジー	roji-
 劇界	gekikai
+ウスバシロチョウ	usubashirochou
 ヴィート	vi-to
 近村	kinnsonn
 閉す	tozasu
@@ -65881,6 +66020,7 @@
 キメ手	kimete
 キャラバンサライ	kyarabannsarai
 サバティカル	sabathikaru
+ジュウヤク	juuyaku
 ディジット	dhijitto
 粘体	nenntai
 経伝	keidenn
@@ -66201,6 +66341,7 @@
 芽立ち	medachi
 菲才	hisai
 スワブ	suwabu
+ヒョウモンチョウ	hyoumonnchou
 原尾	gennbi
 悲歎	hitann
 肉ばなれ	nikubanare
@@ -66342,7 +66483,7 @@
 ディストリクト	dhisutorikuto
 悪戦	akusenn
 明器	meiki
-木末	kozue
+木末	konure
 オバタ	obata
 キツネノマゴ	kitsunenomago
 フラバンジェノール	furabannjeno-ru
@@ -66388,6 +66529,7 @@
 ファウンダー	faunnda-
 故知	kochi
 イノベート	inobe-to
+カンザクラ	kannzakura
 王師	oushi
 育くむ	hagukumu
 せんぱく	sennpaku
@@ -66479,6 +66621,7 @@
 よろい戸	yoroido
 アオカン	aokann
 ウラマー	urama-
+サツキツツジ	satsukitsutsuji
 ポツネン	potsunenn
 東嶺	tourei
 皇嗣	koushi
@@ -66977,6 +67120,7 @@
 通弊	tsuuhei
 イナフ	inafu
 クロマトグラム	kuromatoguramu
+シンクイムシ	shinnkuimushi
 他出	tashutsu
 吸魂	kyuukonn
 救恤	kyuujutsu
@@ -67102,6 +67246,7 @@
 しゃなりしゃなり	shanarishanari
 アコモデーション	akomode-shonn
 サイザー	saiza-
+タラヨウ	tarayou
 ラチチュード	rachichu-do
 ラミン	raminn
 賜り物	tamawarimono
@@ -67233,7 +67378,7 @@
 持仏	jibutsu
 粗衣	soi
 謎謎	nazonazo
-馬橇	umazori
+馬橇	basori
 こざとへん	kozatohenn
 トキソイド	tokisoido
 ノーシス	no-shisu
@@ -67331,6 +67476,7 @@
 祈誓	kisei
 諷誦	fuju
 カシュカシュ	kashukashu
+キジムシロ	kijimushiro
 キャビティー	kyabithi-
 シクロホスファミド	shikurohosufamido
 伝単	denntann
@@ -67356,6 +67502,7 @@
 摸造	mozou
 硝安	shouann
 輪禍	rinnka
+ウリハダカエデ	urihadakaede
 ノネズミ	nonezumi
 入寇	nyuukou
 疎し	utoshi
@@ -67482,6 +67629,7 @@
 野太鼓	nodaiko
 はなやぐ	hanayagu
 イテレーション	itere-shonn
+カスミザクラ	kasumizakura
 クレイム	kureimu
 プリプラ	puripura
 扼する	yakusuru
@@ -67565,6 +67713,7 @@
 淫する	innsuru
 アポストロフィー	aposutorofi-
 コンペティター	konnpethita-
+ツルボ	tsurubo
 山洞	sanndou
 折ふし	orifushi
 掛け売り	kakeuri
@@ -67650,6 +67799,7 @@
 速答	sokutou
 ジェルミナル	jeruminaru
 ストラテジ	sutorateji
+モンガラカワハギ	monngarakawahagi
 古拙	kosetsu
 戒法	kaihou
 揺すぶる	yusuburu
@@ -67714,6 +67864,7 @@
 アラバスター	arabasuta-
 スクーデリア	suku-deria
 ディーヴ	dhi-vu
+ハンドウイルカ	hanndouiruka
 三会	sannne
 微傷	bishou
 揺らせる	yuraseru
@@ -67721,6 +67872,7 @@
 エアウェイズ	eaweizu
 徳化	tokka
 折合い	oriai
+浜防風	hamaboufuu
 破鏡	hakyou
 うえつけ	uetsuke
 サシガメ	sashigame
@@ -67835,6 +67987,7 @@
 染筆	sennpitsu
 インタビュア	inntabyua
 ギリー	giri-
+ショウビズ	shoubizu
 押型	oshigata
 段ち	dannchi
 謹直	kinnchoku
@@ -68133,6 +68286,7 @@
 ドッカリ	dokkari
 ドビン	dobinn
 ハリヤー	hariya-
+ミツバオウレン	mitsubaourenn
 溜塗	tamenuri
 ヴァラエティー	varaethi-
 時雨れる	shigureru
@@ -68255,6 +68409,7 @@
 論功	ronnkou
 ほのめく	honomeku
 ウチワエビ	uchiwaebi
+カラスビシャク	karasubishaku
 ポリペクトミー	poripekutomi-
 具す	gusu
 奇禍	kika
@@ -68290,6 +68445,7 @@
 麻苧	asao
 イロハカエデ	irohakaede
 パリエット	parietto
+ヒサカキ	hisakaki
 フェイササイズ	feisasaizu
 あかまんま	akamannma
 アイボルト	aiboruto
@@ -68369,6 +68525,7 @@
 空かす	sukasu
 高枕	takamakura
 チカーノ	chika-no
+バイカオウレン	baikaourenn
 ビラーゴ	bira-go
 下貼り	shitabari
 五根	gokonn
@@ -68388,6 +68545,7 @@
 ミーン	mi-nn
 閑々	kannkann
 テンパリスト	tennparisuto
+ハナヤサイ	hanayasai
 俗言	zokugenn
 冗語	jougo
 色女	iroonnna
@@ -68492,6 +68650,7 @@
 おもんぱかる	omonnpakaru
 ばいする	baisuru
 カヴァティーナ	kavathi-na
+ティーンエイジ	thi-nneiji
 ロケータ	roke-ta
 ヴェスパ	vesupa
 代払い	daibarai
@@ -68545,6 +68704,7 @@
 ラヴェーラ	rave-ra
 ヴァンパイヤ	vannpaiya
 霊きゅう	reikyuu
+フィルダースチョイス	firuda-suchoisu
 店晒し	tanazarashi
 祖述	sojutsu
 鋳掛け	ikake
@@ -68706,6 +68866,7 @@
 病牀	byoushou
 添花	tennka
 竹柏	nagi
+イボタノキ	ibotanoki
 ペグインターフェロン	peguinnta-feronn
 師傅	shifu
 投力	touryoku
@@ -68837,6 +68998,7 @@
 挙国	kyokoku
 暗線	annsenn
 ずっぷり	zuppuri
+キューカンバー	kyu-kannba-
 グレーズ	gure-zu
 スポブラ	supobura
 ヤマバト	yamabato
@@ -68856,6 +69018,7 @@
 カラツン	karatsunn
 カルツォーネ	karutso-ne
 ツバナ	tsubana
+ミルクイ	mirukui
 使嗾	shisou
 忠僕	chuuboku
 杉綾	sugiaya
@@ -68868,6 +69031,7 @@
 ペディグリー	pedhiguri-
 威名	imei
 平絹	hiraginu
+オニアザミ	oniazami
 センセーショナリズム	sennse-shonarizumu
 タルカン	tarukann
 トロンボキサン	toronnbokisann
@@ -69122,6 +69286,7 @@
 要式	youshiki
 しなだれる	shinadareru
 まぎらわせる	magirawaseru
+シチメンチョウ	shichimennchou
 相判	aibann
 端物	hamono
 繼承	keishou
@@ -69278,6 +69443,7 @@
 詭道	kidou
 雀ゴロ	janngoro
 クロテン	kurotenn
+コクタン	kokutann
 背なか	senaka
 蟾蜍	hikigaeru
 長信銀	choushinnginn
@@ -69296,6 +69462,7 @@
 突帯	tottai
 糸取り	itotori
 闇汁	yamijiru
+タマナ	tamana
 トレアドール	toreado-ru
 ナゴミ	nagomi
 ニンテン	ninntenn
@@ -69398,6 +69565,7 @@
 アヴァン	avann
 サドゥー	sadwu-
 ドウドウ	doudou
+ルリシジミ	rurishijimi
 斜交い	hasukai
 旌旗	seiki
 油染み	aburajimi
@@ -69471,6 +69639,7 @@
 草生す	kusamusu
 ドギモ	dogimo
 バイタ	baita
+四六判	shirokubann
 差し掛け	sashikake
 死児	shiji
 陣立	jinndate
@@ -69724,6 +69893,7 @@
 甘薯	kannsho
 オカルティスト	okaruthisuto
 サステイン	sasuteinn
+バッチコーイ	bacchiko-i
 フェルミオン	ferumionn
 奸悪	kannaku
 軽んず	karonnzu
@@ -69741,6 +69911,7 @@
 勃然	botsuzenn
 厳刑	gennkei
 打首	uchikubi
+トコナツ	tokonatsu
 ネービー	ne-bi-
 ヒャク	hyaku
 ラッフル	raffuru
@@ -69826,6 +69997,7 @@
 敏しょう	binnshou
 羽団扇	hauchiwa
 アンビション	annbishonn
+ウミウチワ	umiuchiwa
 エピタキシー	epitakishi-
 エルゴステロール	erugosutero-ru
 ホリゾンタル	horizonntaru
@@ -69987,6 +70159,7 @@
 バッサバサ	bassabasa
 あわせ鏡	awasekagami
 だっきゅう	dakkyuu
+デフロック	defurokku
 単弁	tannbenn
 後込み	shirigomi
 暖衣	danni
@@ -70234,6 +70407,7 @@
 内所	naisho
 度外れ	dohazure
 羽尺	hajaku
+テンカ	tennka
 フェデリーニ	federi-ni
 上膊	jouhaku
 小づち	koduchi
@@ -70258,6 +70432,7 @@
 暴慢	boumann
 突き合せ	tsukiawase
 アモキシシリン	amokishishirinn
+ショービズ	sho-bizu
 ヴァイブレータ	vaibure-ta
 代替り	daigawari
 夢まくら	yumemakura
@@ -70282,6 +70457,7 @@
 親許	oyamoto
 軍書	gunnsho
 アマチャ	amacha
+ゲンゴロウブナ	genngoroubuna
 ジクロロ	jikuroro
 壮美	soubi
 招運	shouunn
@@ -70367,6 +70543,7 @@
 エード	e-do
 クリンカー	kurinnka-
 グリュイエール	guryuie-ru
+ジュウガツザクラ	juugatsuzakura
 トランスポンダー	torannsuponnda-
 奉勅	houchoku
 延す	nobasu
@@ -70402,6 +70579,8 @@
 船端	funabata
 雪線	sessenn
 ザムライ	zamurai
+フダンソウ	fudannsou
+ブライヤー	buraiya-
 ボイルド	boirudo
 マスノスケ	masunosuke
 不為	futame
@@ -70438,6 +70617,7 @@
 對話	taiwa
 火ダネ	hidane
 ぐっすん	gussunn
+カラスザンショウ	karasuzannshou
 僻遠	hekienn
 大掛り	oogakari
 宣る	noru
@@ -70577,6 +70757,8 @@
 汲水	kyuusui
 験す	tamesu
 ウエイク	ueiku
+カワラケツメイ	kawaraketsumei
+ガールズラブ	ga-ruzurabu
 ソロリ	sorori
 仮綴	karitoji
 満目	mannmoku
@@ -70702,6 +70884,7 @@
 泣石	nakiishi
 読史	dokushi
 ひろえる	hiroeru
+オマツ	omatsu
 天産	tennsann
 幣制	heisei
 精虫	seichuu
@@ -70856,6 +71039,7 @@
 軽信	keishinn
 こがれる	kogareru
 シェーレ	she-re
+ムシトリナデシコ	mushitorinadeshiko
 ロボロフスキー	roborofusuki-
 奸策	kannsaku
 師表	shihyou
@@ -70899,6 +71083,7 @@
 サルマタ	sarumata
 ジストロフィン	jisutorofinn
 トランサミン	torannsaminn
+ヒレナガカンパチ	hirenagakannpachi
 咄家	hanashika
 索麺	soumenn
 あんずる	annzuru
@@ -70963,6 +71148,7 @@
 常とう	joutou
 悟得	gotoku
 留針	tomebari
+カワヤナギ	kawayanagi
 ダイホルタン	daihorutann
 チンプ	chinnpu
 バクロ	bakuro
@@ -70988,6 +71174,7 @@
 茶気	chaki
 エルシド	erushido
 ズルチン	zuruchinn
+ハツタケ	hatsutake
 ホルマント	horumannto
 惨たん	sanntann
 腰揚げ	koshiage
@@ -70999,7 +71186,7 @@
 アワノメイガ	awanomeiga
 グランゼコール	gurannzeko-ru
 フェノバルビタール	fenobarubita-ru
-広袖	dotera
+広袖	hirosode
 梯形	teikei
 没前	botsuzenn
 痛惜	tsuuseki
@@ -71145,6 +71332,7 @@
 橡の木	tochinoki
 筆意	hitsui
 規整	kisei
+ソバナ	sobana
 散ずる	sannzuru
 明るむ	akarumu
 棒先	bousaki
@@ -71204,13 +71392,14 @@
 猛悪	mouaku
 かどわかす	kadowakasu
 ちゅうする	chuusuru
+ウラナミシジミ	uranamishijimi
 通り路	toorimichi
 はしらす	hashirasu
 バーイ	ba-i
 ムア	mua
 勇み肌	isamihada
 撞点	doutenn
-玫瑰	hamanasu
+玫瑰	maikai
 かわたれ	kawatare
 せつく	setsuku
 めしあがる	meshiagaru
@@ -71225,6 +71414,7 @@
 錦地	kinnchi
 あぶれ者	aburemono
 アデノ	adeno
+キヌガサタケ	kinugasatake
 フーマ	fu-ma
 マハディ	mahadhi
 微意	bii
@@ -71320,6 +71510,7 @@
 インダクター	inndakuta-
 コルチカム	koruchikamu
 シエラ	shiera
+マンパ	mannpa
 ユウロピウム	yuuropiumu
 坊間	boukann
 篩う	furuu
@@ -71548,6 +71739,7 @@
 鈍根	donnkonn
 オジロ	ojiro
 キサキ	kisaki
+センザンコウ	sennzannkou
 人あしらい	hitoashirai
 愁思	shuushi
 折中	secchuu
@@ -71574,6 +71766,7 @@
 クロモ	kuromo
 シュミネ	shumine
 スキッピング	sukippinngu
+ディップス	dhippusu
 ディファイン	dhifainn
 半弓	hannkyuu
 守刀	mamorigatana
@@ -71747,6 +71940,7 @@
 讖緯	shinni
 鉄砲虫	teppoumushi
 電略	dennryaku
+ツクバネソウ	tsukubanesou
 交隣	kourinn
 紙つぶて	kamitsubute
 銀ぶち	ginnbuchi
@@ -71814,6 +72008,7 @@
 空買い	karagai
 まつれる	matsureru
 ドッヂビー	doddibi-
+ヌタウナギ	nutaunagi
 穀断ち	kokudachi
 試買	shibai
 アジド	ajido
@@ -71894,6 +72089,7 @@
 おぎなえる	oginaeru
 てなれる	tenareru
 アイディンティティ	aidhinnthithi
+ソイソース	soiso-su
 フェノチアジン	fenochiajinn
 朝な朝な	asanaasana
 群竹	muratake
@@ -71931,6 +72127,7 @@
 カルディナーレ	karudhina-re
 パラディーゾ	paradhi-zo
 ブロメライン	buromerainn
+ヤマハハコ	yamahahako
 ルパシカ	rupashika
 ワニザメ	wanizame
 嫉視	shisshi
@@ -72007,6 +72204,7 @@
 申し出で	moushiide
 肘枕	hijimakura
 がかる	gakaru
+ウェブカム	webukamu
 ヒーティング	hi-thinngu
 ポライトネス	poraitonesu
 ヴァンデミエール	vanndemie-ru
@@ -72014,6 +72212,7 @@
 口腹	koufuku
 ぬぐえる	nugueru
 アダプテーション	adapute-shonn
+クサフジ	kusafuji
 スーパーバイズ	su-pa-baizu
 傴僂	semushi
 砥草	tokusa
@@ -72058,6 +72257,7 @@
 古狐	furugitsune
 載録	sairoku
 アポステリオリ	aposuteriori
+ゴケグモ	gokegumo
 サーベイヤー	sa-beiya-
 デキャンタージュ	dekyannta-ju
 メスティーソ	mesuthi-so
@@ -72105,6 +72305,7 @@
 叙説	josetsu
 髀肉	hiniku
 鯖読み	sabayomi
+ウラシマツツジ	urashimatsutsuji
 フロギストン	furogisutonn
 一旬	ichijunn
 列べる	naraberu
@@ -72217,6 +72418,7 @@
 小糠	konuka
 いからす	ikarasu
 かよわす	kayowasu
+アカイエカ	akaieka
 イモーテル	imo-teru
 内済	naisai
 木杯	mokuhai
@@ -72241,7 +72443,7 @@
 ギンネム	ginnnemu
 口軽	kuchigaru
 從事	juuji
-戯事	zaregoto
+戯事	tawagoto
 撃壌	gekijou
 ふてる	futeru
 アクセプター	akuseputa-
@@ -72308,6 +72510,7 @@
 険難	kennnann
 むむう	mumuu
 アビジン	abijinn
+コシアキトンボ	koshiakitonnbo
 コンスル	konnsuru
 三五	sanngo
 岩燕	iwatsubame
@@ -72324,7 +72527,7 @@
 点ずる	tennzuru
 示準	shijunn
 警蹕	keihitsu
-趺坐	agura
+趺坐	fuza
 クロストリジウム	kurosutorijiumu
 入れ目	ireme
 刎頸	funnkei
@@ -72356,7 +72559,6 @@
 結綿	yuiwata
 農蚕	nousann
 ザカート	zaka-to
-シュタルク	shutaruku
 セルフィッシュ	serufisshu
 パラメター	parameta-
 圧覚	akkaku
@@ -72738,6 +72940,7 @@
 散じる	sannjiru
 独楽鼠	komanezumi
 玉箒	tamahahaki
+センダイハギ	senndaihagi
 ポリアクリルアミドゲル	poriakuriruamidogeru
 モダリティー	modarithi-
 固目	katame
@@ -72831,10 +73034,12 @@
 山鯨	yamakujira
 揉捏	juunetsu
 錐面	suimenn
+カラタチバナ	karatachibana
 ギャングスタ	gyanngusuta
 コスミック	kosumikku
 サルバルサン	sarubarusann
 スキッピー	sukippi-
+ヌカカ	nukaka
 ヘタッ	hetaxtu
 マチュ	machu
 ミニマリスト	minimarisuto
@@ -73034,6 +73239,7 @@
 間がら	aidagara
 さきおととい	sakiototoi
 カンオケ	kannoke
+チップチューン	chippuchu-nn
 ディレクターズ	dhirekuta-zu
 ナフテン	nafutenn
 プラトニズム	puratonizumu
@@ -73068,6 +73274,7 @@
 超凡	choubonn
 長虫	nagamushi
 アセト	aseto
+イケマ	ikema
 ウスラトンカチ	usuratonnkachi
 シクロヘキサノン	shikurohekisanonn
 ハーモナイゼーション	ha-monaize-shonn
@@ -73203,6 +73410,7 @@
 囃子詞	hayashikotoba
 店仕舞	misejimai
 擦れ合い	kosureai
+ウノハナ	unohana
 チェックアウト	chekkuauto
 兄事	keiji
 厄落し	yakuotoshi
@@ -73213,9 +73421,11 @@
 とらの巻	toranomaki
 アージェ	a-je
 イレヴン	irevunn
+ヒオドシチョウ	hiodoshichou
 天際	tennsai
 サンタローザ	sanntaro-za
 ハルバ	haruba
+メドハギ	medohagi
 土語	dogo
 悪様	ashizama
 擱筆	kakuhitsu
@@ -73348,6 +73558,7 @@
 エイティーン	eithi-nn
 シークエンサー	shi-kuennsa-
 スケープ	suke-pu
+ゼンテイカ	zennteika
 巨鯨	kyogei
 懴悔	zannge
 振りがな	furigana
@@ -73372,6 +73583,7 @@
 胡地	kochi
 言い条	iijou
 のめのめ	nomenome
+アオハダ	aohada
 アドヴェンチャー	adovenncha-
 コクガ	kokuga
 スカラーシップ	sukara-shippu
@@ -73468,6 +73680,7 @@
 親電	shinndenn
 せっぷく	seppuku
 ほころばす	hokorobasu
+エゾオオカミ	ezoookami
 エバネッセント	ebanessennto
 ガバリ	gabari
 傍白	bouhaku
@@ -73510,6 +73723,7 @@
 石南花	shakunage
 萵苣	chisha
 エグゾースト	eguzo-suto
+カイラン	kairann
 ススッ	susuxtu
 デイスク	deisuku
 パゴタ	pagota
@@ -73657,7 +73871,6 @@
 長っ尻	nagacchiri
 防鹿	bouroku
 インターミディエイト	innta-midhieito
-エンヴィ	ennvi
 クーッ	ku-xtu
 巍々	gigi
 平らぐ	tairagu
@@ -73685,7 +73898,8 @@
 すぼむ	subomu
 オリンピアード	orinnpia-do
 ガンジ	gannji
-寂々	sekiseki
+ドロノキ	doronoki
+寂々	jakujaku
 真向き	mamuki
 酢蛸	sudako
 エブリバディ	eburibadhi
@@ -73895,10 +74109,12 @@
 すがめる	sugameru
 アニュアル	anyuaru
 ブラディー	buradhi-
+ラブカ	rabuka
 力足	chikaraashi
 座込み	suwarikomi
 くつがえせる	kutsugaeseru
 なみうつ	namiutsu
+インスパイヤー	innsupaiya-
 ガジマル	gajimaru
 キヤンプ	kiyannpu
 シンチレーター	shinnchire-ta-
@@ -73970,6 +74186,7 @@
 鈴掛	suzukake
 饗する	kyousuru
 ぬりつぶし	nuritsubushi
+コミスジ	komisuji
 サンカノゴイ	sannkanogoi
 チチチ	chichichi
 ッチャン	cchann
@@ -74035,6 +74252,7 @@
 椎柴	shiishiba
 花合せ	hanaawase
 達見	takkenn
+チゴハヤブサ	chigohayabusa
 ホームカミング	ho-mukaminngu
 ボルテクス	borutekusu
 光頭	koutou
@@ -74177,6 +74395,7 @@
 ノルボルネン	noruborunenn
 ビバン	bibann
 ラヤ	raya
+ワタカ	wataka
 交名	kyoumyou
 裂頭	rettou
 うべなう	ubenau
@@ -74358,6 +74577,7 @@
 耳慣れる	miminareru
 裾廻し	susomawashi
 しょする	shosuru
+クレタケ	kuretake
 スティッキー	suthikki-
 フィクス	fikusu
 ボロニア	boronia
@@ -74392,6 +74612,7 @@
 シンケイ	shinnkei
 ビネット	binetto
 フセン	fusenn
+メイタガレイ	meitagarei
 円坐	ennza
 アタッシュ	atasshu
 ゴダ	goda
@@ -74554,6 +74775,7 @@
 かけくらべ	kakekurabe
 アソシエート	asoshie-to
 ウミトサカ	umitosaka
+カワラヨモギ	kawarayomogi
 ズブッ	zubuxtu
 デポルティボ	deporuthibo
 ローフ	ro-fu
@@ -74913,6 +75135,7 @@
 トウゼン	touzenn
 ニッパヤシ	nippayashi
 パリティー	parithi-
+ホースシュー	ho-sushu-
 リチュアル	richuaru
 延金	nobegane
 忍ばせる	shinobaseru
@@ -74928,6 +75151,7 @@
 褞袍	dotera
 雲脚	kumoashi
 ビフレンダーズ	bifurennda-zu
+ワレカラ	warekara
 便便	bennbenn
 口塞ぎ	kuchifusagi
 塵取	chiritori
@@ -74982,6 +75206,7 @@
 欽差	kinnsa
 カンプト	kannputo
 フクユタカ	fukuyutaka
+ワランティ	warannthi
 白帯下	koshike
 羞悪	shuuo
 面くらう	mennkurau
@@ -75087,6 +75312,7 @@
 苛責	kashaku
 賀宴	gaenn
 あわせ酢	awasezu
+イノコズチ	inokozuchi
 ゴフッ	gofuxtu
 トントコ	tonntoko
 ビーエス	bi-esu
@@ -75274,6 +75500,7 @@
 ぬくめる	nukumeru
 ウォーン	who-nn
 オケイ	okei
+カツオブシムシ	katsuobushimushi
 グレイプニル	gureipuniru
 スノキ	sunoki
 ダツラ	datsura
@@ -75341,7 +75568,7 @@
 羽交	hagai
 耐波	taiha
 近着	kinnchaku
-魚棚	naya
+魚棚	nadana
 てっする	tessuru
 コンセット	konnsetto
 デコチャリ	dekochari
@@ -75353,6 +75580,7 @@
 こんりんざい	konnrinnzai
 ぬらりくらり	nurarikurari
 カテコール	kateko-ru
+ジャガタライモ	jagataraimo
 チェサ	chesa
 丈比べ	takekurabe
 重土	juudo
@@ -75459,7 +75687,7 @@
 トポイソメラーゼ	topoisomera-ze
 ドゥーズ	dwu-zu
 フィカス	fikasu
-別れ路	wakaremichi
+別れ路	wakareji
 富札	tomifuda
 截断	setsudann
 法敵	houteki
@@ -75589,6 +75817,7 @@
 荒立つ	aradatsu
 雑税	zatsuzei
 インテイク	innteiku
+ナワシログミ	nawashirogumi
 軽焼	karuyaki
 ウェーヴ	we-vu
 カセッテ	kasette
@@ -75599,6 +75828,7 @@
 取灰	toribai
 帯革	obikawa
 しゃくぶく	shakubuku
+クマシデ	kumashide
 ファビュラス	fabyurasu
 メタフィジカル	metafijikaru
 モネラ	monera
@@ -75627,6 +75857,7 @@
 サルフェート	sarufe-to
 ディゾルブ	dhizorubu
 ヒヤカシ	hiyakashi
+不断草	fudannsou
 乳切	chigiri
 口づて	kuchidute
 廻心	eshinn
@@ -75645,6 +75876,7 @@
 自訴	jiso
 船艙	sennsou
 輪留	wadome
+エゾギク	ezogiku
 ペイザン	peizann
 モデルズ	moderuzu
 ヴァニティ	vanithi
@@ -75664,6 +75896,7 @@
 食らえる	kuraeru
 ろんじる	ronnjiru
 アカマンマ	akamannma
+オキシー	okishi-
 ハシタ	hashita
 ビグアナイド	biguanaido
 僧りょ	souryo
@@ -75773,6 +76006,7 @@
 しわる	shiwaru
 ふうじる	fuujiru
 アーネンエルベ	a-nennerube
+コクレン	kokurenn
 ベロシティー	beroshithi-
 上がり段	agaridann
 初茸	hatsutake
@@ -75961,7 +76195,7 @@
 小きざみ	kokizami
 微塵子	mijinnko
 漠漠	bakubaku
-白膠木	nude
+白膠木	nurude
 遅疑	chigi
 ウイロイド	uiroido
 ミニブルワリー	miniburuwari-
@@ -76107,6 +76341,7 @@
 ていきゅう	teikyuu
 インファレンス	innfarennsu
 ウーツ	u-tsu
+クサギカメムシ	kusagikamemushi
 ノベライゼーション	noberaize-shonn
 手械	tekase
 會計	kaikei
@@ -76244,6 +76479,7 @@
 肉細	nikuboso
 臍繰り	hesokuri
 つつめる	tsutsumeru
+アスヒ	asuhi
 アドバタイジング	adobataijinngu
 ウゾ	uzo
 エルロチニブ	erurochinibu
@@ -76264,6 +76500,7 @@
 こわせる	kowaseru
 ひびかす	hibikasu
 クロロマイセチン	kuroromaisechinn
+シュロチク	shurochiku
 スプリンクラ	supurinnkura
 ランティエ	rannthie
 出出し	dedashi
@@ -76369,6 +76606,7 @@
 肘突き	hijitsuki
 起き伏し	okifushi
 アニマトロニクス	animatoronikusu
+エゾムシクイ	ezomushikui
 ズズズッ	zuzuzuxtu
 リファンド	rifanndo
 仰望	gyoubou
@@ -76473,11 +76711,13 @@
 腟部	chitsubu
 重味	omomi
 麗質	reishitsu
+モッド	moddo
 劇痛	gekitsuu
 将家	shouka
 攣れる	tsureru
 訪越	houetsu
 認罪	ninnzai
+クサレダマ	kusaredama
 ニコパチ	nikopachi
 プエルトリカン	puerutorikann
 剪刀	senntou
@@ -76521,6 +76761,7 @@
 ウィングレット	winnguretto
 エポーレット	epo-retto
 オキサイド	okisaido
+ヌマガエル	numagaeru
 ハシケ	hashike
 ムナクソ	munakuso
 レファレンダム	refarenndamu
@@ -76650,6 +76891,7 @@
 チェスターフィールド	chesuta-fi-rudo
 チラージン	chira-jinn
 ブロントサウルス	buronntosaurusu
+マルチパーパス	maruchipa-pasu
 召上がる	meshiagaru
 整除	seijo
 曵く	hiku
@@ -76691,6 +76933,7 @@
 永し	nagashi
 こぎる	kogiru
 むら気	muraki
+アケビコノハ	akebikonoha
 勃勃	botsubotsu
 古址	koshi
 席入	sekiiri
@@ -76788,6 +77031,7 @@
 鵬程	houtei
 イメージャ	ime-ja
 エブリシング	eburishinngu
+オニカマス	onikamasu
 グヤーシュ	guya-shu
 タニン	taninn
 ノマディック	nomadhikku
@@ -76827,6 +77071,7 @@
 銃丸	juugann
 りゃくする	ryakusuru
 アサハカ	asahaka
+ネザサ	nezasa
 ピイピイ	piipii
 ホスホジエステラーゼ	hosuhojiesutera-ze
 御灯	gyotou
@@ -76933,6 +77178,7 @@
 鹵簿	robo
 しりすぼみ	shirisubomi
 よいよい	yoiyoi
+アオモジ	aomoji
 オドシ	odoshi
 オニドコロ	onidokoro
 オプティマイザー	oputhimaiza-
@@ -77067,6 +77313,7 @@
 輔導	hodou
 どた靴	dotagutsu
 アクティベーター	akuthibe-ta-
+チユ	chiyu
 パバーヌ	paba-nu
 便々	bennbenn
 咬創	kousou
@@ -77277,6 +77524,7 @@
 英略	eiryaku
 襟度	kinndo
 ビブラスラップ	biburasurappu
+マルチバース	maruchiba-su
 ヴァイシャ	vaisha
 仏参	bussann
 囲堤	kakoitsutsumi
@@ -77331,6 +77579,7 @@
 名吟	meiginn
 提重	sagejuu
 インフュージョン	innfyu-jonn
+キョウナ	kyouna
 ペダントリー	pedanntori-
 孟冬	moutou
 怨望	ennbou
@@ -77476,6 +77725,7 @@
 わるびれる	warubireru
 ザバー	zaba-
 ハダカイワシ	hadakaiwashi
+ホタルカズラ	hotarukazura
 マクシマム	makushimamu
 側杖	sobadue
 去り状	sarijou
@@ -77499,6 +77749,7 @@
 クリース	kuri-su
 セファランチン	sefarannchinn
 トーテミズム	to-temizumu
+ヒザラガイ	hizaragai
 レンブ	rennbu
 外舅	gaikyuu
 岩躑躅	iwatsutsuji
@@ -77619,6 +77870,7 @@
 牽強	kennkyou
 稲叢	inamura
 インタヴュアー	inntavyua-
+エビモ	ebimo
 シフク	shifuku
 居住い	izumai
 ディベロップメント	dhiberoppumennto
@@ -77665,6 +77917,7 @@
 ルルベ	rurube
 堆石	taiseki
 淫肉	innniku
+ニシキウツギ	nishikiutsugi
 バソプレッシン	basopuresshinn
 マーチャンダイズ	ma-channdaizu
 上兵	jouhei
@@ -77847,6 +78100,7 @@
 浮氷	fuhyou
 睨める	nirameru
 うすまる	usumaru
+イワヒゲ	iwahige
 シニック	shinikku
 ビリアード	biria-do
 御撰	gyosenn
@@ -77895,6 +78149,7 @@
 スオ	suo
 デファレンシャル	defarennsharu
 ブロシェット	buroshetto
+ミシマサイコ	mishimasaiko
 体刑	taikei
 推称	suishou
 摸本	mohonn
@@ -77914,6 +78169,7 @@
 みがまえる	migamaeru
 アクアチント	akuachinnto
 アドミタンス	adomitannsu
+イノデ	inode
 コンデ	konnde
 ナチュレル	nachureru
 フォトグラフィー	fotogurafi-
@@ -78049,6 +78305,7 @@
 脾摘	hiteki
 腓返り	komuragaeri
 ほこ先	hokosaki
+ウシノシタ	ushinoshita
 ゴッツン	gottsunn
 シャモット	shamotto
 バルバリー	barubari-
@@ -78131,6 +78388,7 @@
 カイニン	kaininn
 コンプリーション	konnpuri-shonn
 ネンブツ	nennbutsu
+ヒメコウゾ	himekouzo
 女浪	menami
 恟々	kyoukyou
 掃溜	hakidame
@@ -78253,6 +78511,7 @@
 重恩	juuonn
 こんぐらかる	konngurakaru
 アグレッション	aguresshonn
+キョウオウ	kyouou
 キリヌキ	kirinuki
 トラディション	toradhishonn
 フォトグラフィ	fotogurafi
@@ -78267,7 +78526,9 @@
 蒼枯	souko
 賜暇	shika
 こごる	kogoru
+コロハ	koroha
 ダラーッ	dara-xtu
+ツクバネガシ	tsukubanegashi
 ヒドロキノン	hidorokinonn
 プラター	purata-
 ポーリッシュ	po-risshu
@@ -78309,6 +78570,7 @@
 オリエンタリス	orienntarisu
 フェーザー	fe-za-
 プーレ	pu-re
+マグサ	magusa
 ライトモティーフ	raitomothi-fu
 官記	kannki
 枯骨	kokotsu
@@ -78575,6 +78837,7 @@
 オーラミン	o-raminn
 カバラー	kabara-
 デュナーミク	dhuna-miku
+ヒサギ	hisagi
 ベルコン	berukonn
 口抜き	kuchinuki
 夕汐	yuushio
@@ -78592,7 +78855,6 @@
 眷顧	kennko
 至人	shijinn
 どうずる	douzuru
-イゾラ	izora
 コントリビューション	konntoribyu-shonn
 プラクシス	purakushisu
 ペドファイル	pedofairu
@@ -78713,6 +78975,7 @@
 エクロジャイト	ekurojaito
 オシログラフ	oshirogurafu
 カプチン	kapuchinn
+キノコバエ	kinokobae
 サルパ	sarupa
 バンテン	banntenn
 プロスペクティブ	purosupekuthibu
@@ -78755,6 +79018,7 @@
 キカラシ	kikarashi
 ギレイ	girei
 サポーティング	sapo-thinngu
+ラカンマキ	rakannmaki
 凡慮	bonnryo
 寸尺	sunnshaku
 禁闕	kinnketsu
@@ -78843,6 +79107,7 @@
 アセローラ	asero-ra
 ジェネティック	jenethikku
 スチュアーデス	suchua-desu
+ビタースイート	bita-sui-to
 フウッ	fuuxtu
 モラセス	morasesu
 亙れる	watareru
