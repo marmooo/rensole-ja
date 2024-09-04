@@ -1,4 +1,4 @@
-import { readLines } from "https://deno.land/std/io/mod.ts";
+import { TextLineStream } from "jsr:@std/streams/text-line-stream";
 import { YomiDict } from "https://raw.githubusercontent.com/marmooo/yomi-dict/v0.1.7/mod.js";
 import { hiraToRoma } from "https://raw.githubusercontent.com/marmooo/hiraroma/main/mod.js";
 
@@ -11,49 +11,55 @@ function kanaToHira(str) {
 
 async function loadSiminyms() {
   const dict = [];
-  const fileReader = await Deno.open("siminym-ja-repo/all.lst");
-  for await (const line of readLines(fileReader)) {
+  const file = await Deno.open("siminym-ja-repo/all.lst");
+  const lineStream = file.readable
+    .pipeThrough(new TextDecoderStream())
+    .pipeThrough(new TextLineStream());
+  for await (const line of lineStream) {
     const word = line.split(",", 1)[0];
     dict.push(word);
   }
   return dict;
 }
 
-async function _loadSudachiFilter() {
-  const dict = {};
-  const paths = [
-    "SudachiDict/src/main/text/small_lex.csv",
-    "SudachiDict/src/main/text/core_lex.csv",
-  ];
-  for (const path of paths) {
-    const fileReader = await Deno.open(path);
-    for await (const line of readLines(fileReader)) {
-      if (!line) continue;
-      const arr = line.split(",");
-      const lemma = arr[12];
-      const pos1 = arr[5];
-      const pos2 = arr[6];
-      // const form = arr[10];
-      const abc = arr[14];
-      switch (pos1) {
-        case "動詞":
-          break;
-        case "形容詞":
-          break;
-        case "名詞":
-          if (pos2 != "普通名詞") continue;
-          if (/[ぁ-ん]/.test(lemma.at(-1))) continue;
-          break;
-        default:
-          continue;
-      }
-      if (abc != "A") continue;
-      // if (form != "*" && !form.includes("終止形")) continue;
-      dict[lemma] = true;
-    }
-  }
-  return dict;
-}
+// async function _loadSudachiFilter() {
+//   const dict = {};
+//   const paths = [
+//     "SudachiDict/src/main/text/small_lex.csv",
+//     "SudachiDict/src/main/text/core_lex.csv",
+//   ];
+//   for (const path of paths) {
+//     const file = await Deno.open(path);
+//     const lineStream = file.readable
+//       .pipeThrough(new TextDecoderStream())
+//       .pipeThrough(new TextLineStream());
+//     for await (const line of lineStream) {
+//       if (!line) continue;
+//       const arr = line.split(",");
+//       const lemma = arr[12];
+//       const pos1 = arr[5];
+//       const pos2 = arr[6];
+//       // const form = arr[10];
+//       const abc = arr[14];
+//       switch (pos1) {
+//         case "動詞":
+//           break;
+//         case "形容詞":
+//           break;
+//         case "名詞":
+//           if (pos2 != "普通名詞") continue;
+//           if (/[ぁ-ん]/.test(lemma.at(-1))) continue;
+//           break;
+//         default:
+//           continue;
+//       }
+//       if (abc != "A") continue;
+//       // if (form != "*" && !form.includes("終止形")) continue;
+//       dict[lemma] = true;
+//     }
+//   }
+//   return dict;
+// }
 
 function getRoma(word, yomiDict) {
   let yomi = word;
