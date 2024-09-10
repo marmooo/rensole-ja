@@ -34,7 +34,6 @@ async function loadSiminyms() {
 //       .pipeThrough(new TextDecoderStream())
 //       .pipeThrough(new TextLineStream());
 //     for await (const line of lineStream) {
-//       if (!line) continue;
 //       const arr = line.split(",");
 //       const lemma = arr[12];
 //       const pos1 = arr[5];
