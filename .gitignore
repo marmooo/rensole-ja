@@ -1,5 +1,6 @@
 .venv/
 node_modules/
+deno.lock
 cc.ja.300.vec
 cc.ja.300-small.vec
 cc.ja.300-small.magnitude
