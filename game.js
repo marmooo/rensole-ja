@@ -1,6 +1,6 @@
-import { TextLineStream } from "jsr:@std/streams/text-line-stream";
-import { YomiDict } from "npm:yomi-dict@0.1.8";
-import { hiraToRoma } from "npm:hiraroma@0.0.1";
+import { TextLineStream } from "@std/streams";
+import { YomiDict } from "yomi-dict";
+import { hiraToRoma } from "hiraroma";
 
 function kanaToHira(str) {
   return str.replace(/[ァ-ヶ]/g, (match) => {
