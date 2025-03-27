@@ -1,4 +1,5 @@
 {
+  "nodeModulesDir": "auto",
   "imports": {
     "@std/streams": "jsr:@std/streams@^1.0.8",
     "hiraroma": "npm:hiraroma@^0.0.1",
