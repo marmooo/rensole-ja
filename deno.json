@@ -1,6 +1,7 @@
 {
   "nodeModulesDir": "auto",
   "imports": {
+    "@deno/emit": "jsr:@deno/emit@^0.46.0",
     "@std/streams": "jsr:@std/streams@^1.0.9",
     "hiraroma": "npm:hiraroma@^0.0.1",
     "sql.js-httpvfs": "npm:sql.js-httpvfs@0.8.12",
