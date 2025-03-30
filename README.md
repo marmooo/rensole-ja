@@ -34,4 +34,4 @@ bash build.sh
 
 ## License
 
-CC-BY-SA 4.0
+CC-BY-SA-4.0
