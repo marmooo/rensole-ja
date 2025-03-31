@@ -1,7 +1,7 @@
 import { escapeSql } from "https://deno.land/x/escape/mod.ts";
 import { createDbWorker } from "../node_modules/sql.js-httpvfs/dist/index.js";
-import { Kanji } from "https://cdn.jsdelivr.net/npm/@marmooo/kanji@0.0.4/esm/kanji.js";
-import { JKAT } from "https://cdn.jsdelivr.net/npm/@marmooo/kanji@0.0.4/esm/jkat.js";
+import { Kanji } from "https://cdn.jsdelivr.net/npm/@marmooo/kanji@0.0.8/esm/kanji.js";
+import { JKAT } from "https://cdn.jsdelivr.net/npm/@marmooo/kanji@0.0.8/esm/jkat.js";
 
 let audioContext;
 const audioBufferCache = {};
