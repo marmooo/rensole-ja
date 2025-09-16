@@ -1,6 +1,6 @@
 import { createDbWorker } from "../node_modules/sql.js-httpvfs/dist/index.js";
-import { Kanji } from "https://cdn.jsdelivr.net/npm/@marmooo/kanji@0.1.1/esm/kanji.js";
-import { JKAT } from "https://cdn.jsdelivr.net/npm/@marmooo/kanji@0.1.1/esm/jkat.js";
+import { Kanji } from "https://cdn.jsdelivr.net/npm/@marmooo/kanji@0.1.2/esm/kanji.js";
+import { JKAT } from "https://cdn.jsdelivr.net/npm/@marmooo/kanji@0.1.2/esm/jkat.js";
 
 let audioContext;
 const audioBufferCache = {};
